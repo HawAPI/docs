@@ -1,0 +1,30 @@
+input: .
+output: .retype
+url: https://hawapi.theproject.id
+branding:
+  title: HawAPI
+  label: Docs
+links:
+  - text: Home
+    link: https://hawapi.theproject.id
+    icon: home
+  - text: SDK's
+    link: https://hawapi.theproject.id/sdks
+    icon: package
+  - text: Try it
+    link: https://hawapi.theproject.id/try-it
+    icon: rocket
+  - text: Github
+    link: https://github.com/HawAPI/
+    icon: mark-github
+  - text: Discussions
+    link: https://github.com/HawAPI/api/discussions
+    icon: comment-discussion
+  - text: Issues
+    link: https://github.com/HawAPI/api/issues
+    icon: issue-opened
+footer:
+  copyright: "&copy; Copyright {{ year }}. All rights reserved."
+edit:
+  repo: "https://github.com/HawAPI/docs/"
+  branch: main
