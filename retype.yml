@@ -4,6 +4,8 @@ url: https://hawapi.theproject.id
 branding:
   title: HawAPI
   label: Docs
+meta:
+  title: " | HawAPI"
 links:
   - text: Home
     link: https://hawapi.theproject.id
@@ -11,21 +13,28 @@ links:
   - text: SDK's
     link: https://hawapi.theproject.id/sdks
     icon: package
+    target: blank
   - text: Try it
     link: https://hawapi.theproject.id/try-it
     icon: rocket
+    target: blank
   - text: Github
     link: https://github.com/HawAPI/
     icon: mark-github
+    target: blank
   - text: Discussions
     link: https://github.com/HawAPI/api/discussions
     icon: comment-discussion
+    target: blank
   - text: Issues
     link: https://github.com/HawAPI/api/issues
     icon: issue-opened
+    target: blank
 footer:
   copyright: "&copy; Copyright {{ year }}. All rights reserved."
   links:
+    - text: About
+      link: About.md
     - text: License
       link: https://github.com/HawAPI/api/LICENSE
 edit:

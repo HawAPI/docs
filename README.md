@@ -10,8 +10,9 @@ All this information is available through a RESTful API implemented with _Java (
 
 ## Topics
 
-- [Introduction](./index.md)
+- [Introduction](./)
 - [Guides](./Guides/)
+  - [Filters](./Guides/Filters.md)
   - [Authentication](./Guides/Authentication.md)
   - [Rate Limiting & Quotas](./Guides/Rate-Limiting-Quotas.md)
 - [API](./API/)
@@ -28,5 +29,10 @@ All this information is available through a RESTful API implemented with _Java (
   - [JavaScript](./SDK's/JavaScript.md)
   - [Kotlin](./SDK's/Kotlin.md)
 - [FAQ](./FAQ.md)
-- [Changelog](./Changelog.md)
 - [About](./About.md)
+  - [Maintainers](./About.md#maintainers)
+  - [What I Used?](./About.md#what-i-used)
+  - [Tech Stack](./About.md#tech-stack)
+  - [Fair Use Policy](./About.md#fair-use-policy)
+  - [Copyright](./About.md#copyright)
+  - [License](./About.md#license)
