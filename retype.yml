@@ -1,5 +1,5 @@
 input: .
-output: .retype
+output: ./build/
 url: https://hawapi.theproject.id
 branding:
   title: HawAPI
@@ -25,6 +25,9 @@ links:
     icon: issue-opened
 footer:
   copyright: "&copy; Copyright {{ year }}. All rights reserved."
+  links:
+    - text: License
+      link: https://github.com/HawAPI/api/LICENSE
 edit:
   repo: "https://github.com/HawAPI/docs/"
   branch: main
