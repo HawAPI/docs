@@ -1,5 +1,5 @@
 # Guides
 
 - [Filters](./Filters.md)
+- [Rate Limiting](./Rate-Limiting.md)
 - [Authentication](./Authentication.md)
-- [Rate Limiting & Quotas](./Rate-Limiting-Quotas.md)
