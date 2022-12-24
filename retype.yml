@@ -1,9 +1,14 @@
 input: .
 output: ./build/
 url: https://hawapi.theproject.id
+cname: false
 branding:
   title: HawAPI
   label: Docs
+  colors:
+    label:
+      background: "#0f0f0f"
+      text: "#ffffff"
 meta:
   title: " | HawAPI"
 links:
