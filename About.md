@@ -9,13 +9,13 @@ Technical support questions are best asked in the [Discussion](https://github.co
 
 Did you find a bug? Please create an [Issue](https://github.com/HawAPI/api/issues).
 
-Do you have a general inquiry? Please feel free to contact at contact@lucasjosino.com.
+Do you have a general inquiry? Please feel free to contact at hawapi@lucasjosino.com.
 
 ## Maintainers
 
-| Name     |                                   Links                                    |         Contact         |
-| :------- | :------------------------------------------------------------------------: | :---------------------: |
-| LucJosin | [Github](https://github.com/LucJosin) - [Website](https://lucasjosino.com) | contact@lucasjosino.com |
+| Name     |                                   Links                                    |        Contact         |
+| :------- | :------------------------------------------------------------------------: | :--------------------: |
+| LucJosin | [Github](https://github.com/LucJosin) - [Website](https://lucasjosino.com) | hawapi@lucasjosino.com |
 
 <!-- # Contributors -->
 
