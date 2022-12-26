@@ -35,4 +35,4 @@ All this information is available through a RESTful API implemented with _Java (
   - [Tech Stack](./About.md#tech-stack)
   - [Fair Use Policy](./About.md#fair-use-policy)
   - [Copyright](./About.md#copyright)
-  - [License](./About.md#license)
+  - [Licenses](./About.md#licenses)

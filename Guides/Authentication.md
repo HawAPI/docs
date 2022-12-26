@@ -13,7 +13,7 @@ However, this also means that we've limited what you can use.
 ## Create account
 
 !!!warning Warning
-At the moment this API is not accepting any registration so, only [the first tier](Rate-Limiting.md) are a available.
+At the moment this API is not accepting any registration so, only [the first tier(ANONYMOUS)](Rate-Limiting.md) are a available.
 !!!
 
 > [!badge variant="success" text="POST"] /api/auth/register
