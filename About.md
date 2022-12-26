@@ -48,7 +48,7 @@ See all tools and related liceses: [Third party licenses](#third-party-licenses)
 
 ## Copyright
 
-The data and images are used without claim of ownership and belong to their respective owners. I do not own the rights to any material provided in this API. This API is [Open Source](https://github.com/HawAPI) and uses a [MIT License](#license).
+The data and images are used without claim of ownership and belong to their respective owners. I do not own the rights to any material provided in this API. This API is [Open Source](https://github.com/HawAPI) and uses a [MIT License](#licenses).
 
 ## Licenses
 
@@ -88,27 +88,33 @@ SOFTWARE.
 
 ==- spring-boot (And all related spring-projects)
 
+[Github](https://github.com/spring-projects) \
 [Apache License 2.0](https://github.com/spring-projects/spring-boot/blob/main/LICENSE.txt)
 
 ==- bucket4j-spring-boot-starter
 
+[Github](https://github.com/MarcGiffing/bucket4j-spring-boot-starter) \
 [Apache License 2.0](https://github.com/MarcGiffing/bucket4j-spring-boot-starter/blob/master/LICENSE)
 
 ==- hazelcast
 
+[Github](https://github.com/hazelcast/hazelcast) \
 [Apache License 2.0](https://github.com/hazelcast/hazelcast/blob/master/licenses/apache-v2-license.txt) \
 [Hazelcast Community License](https://github.com/hazelcast/hazelcast/blob/master/licenses/hazelcast-community-license.txt)
 
 ==- springdoc-openapi-ui
 
+[Github](https://github.com/springdoc/springdoc-openapi) \
 [Apache License 2.0](https://github.com/springdoc/springdoc-openapi/blob/master/LICENSE)
 
 ==- modelmapper
 
+[Github](https://github.com/modelmapper/modelmapper) \
 [Apache License 2.0](https://github.com/modelmapper/modelmapper/blob/master/LICENSE.txt)
 
 ==- java-json-tools
 
+[Github](https://github.com/java-json-tools) \
 [GNU LESSER GENERAL PUBLIC LICENSE 3.0](https://www.gnu.org/licenses/lgpl-3.0.txt) \
 [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0.txt)
 
@@ -116,10 +122,12 @@ Ref: [java-json-tools/json-tools](https://github.com/java-json-tools/json-patch/
 
 ==- hibernate-types
 
+[Github](https://github.com/vladmihalcea/hibernate-types) \
 [Apache License 2.0](https://github.com/vladmihalcea/hibernate-types/blob/master/LICENSE)
 
 ==- postgresql
 
+[Github](https://github.com/postgres/) \
 [PostgreSQL License](https://www.postgresql.org/about/licence/)
 
 ==-
@@ -128,14 +136,17 @@ Ref: [java-json-tools/json-tools](https://github.com/java-json-tools/json-patch/
 
 ==- retype (docs)
 
+[Github](https://github.com/retypeapp/retype) \
 [Retype Software License Agreement](https://github.com/retypeapp/retype/blob/main/LICENSE.md)
 
 ==- astro.build (And all related packages)
 
+[Github](https://github.com/withastro/) | [Github (Community)](https://github.com/astro-community) \
 [MIT License](https://github.com/withastro/astro/blob/main/LICENSE)
 
 ==- astro-icon
 
+[Github](https://github.com/natemoo-re/astro-icon) \
 [MIT License](https://github.com/natemoo-re/astro-icon/blob/main/LICENSE)
 
 ==-
