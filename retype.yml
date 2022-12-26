@@ -13,14 +13,11 @@ meta:
   title: " | HawAPI"
 links:
   - text: Home
-    link: https://hawapi.theproject.id
+    link: /
     icon: home
-  - text: SDK's
-    link: https://hawapi.theproject.id/sdks
-    icon: package
     target: blank
   - text: Try it
-    link: https://hawapi.theproject.id/try-it
+    link: /try-it
     icon: rocket
     target: blank
   - text: Github
@@ -38,10 +35,16 @@ links:
 footer:
   copyright: "&copy; Copyright {{ year }}. All rights reserved."
   links:
-    - text: About
-      link: About.md
-    - text: License
-      link: https://github.com/HawAPI/api/LICENSE
+    - text: Maintainers
+      link: /about/#maintainers
+    - text: Tech Stack
+      link: /about#tech-stack
+    - text: Fair Use Policy
+      link: /about/#fair-use-policy
+    - text: Copyright
+      link: /about/#copyright
+    - text: Licenses
+      link: /about/#licenses
 edit:
   repo: "https://github.com/HawAPI/docs/"
   branch: main
