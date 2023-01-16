@@ -13,11 +13,11 @@ meta:
   title: " | HawAPI"
 links:
   - text: Home
-    link: /
+    link: https://hawapi.theproject.id
     icon: home
     target: blank
   - text: Try it
-    link: /try-it
+    link: https://hawapi.theproject.id/try-it
     icon: rocket
     target: blank
   - text: Github
