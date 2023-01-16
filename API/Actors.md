@@ -13,15 +13,9 @@ Fetches a list of actors.
 | :-------------------------------------- | :---------------------- | :-----: | :------------------------------------------ |
 | [!badge variant="primary" text="GET"]   | /api/v1/actors          |         | **Retrieves** all actors.                   |
 | [!badge variant="primary" text="GET"]   | /api/v1/actors/\{uuid\} |         | **Retrieves** one actor using its **UUID**. |
-| [!badge variant="warning" text="PATCH"] | /api/v1/actors/\{uuid\} |  `MOD`  | **Update** one actor using its **UUID**.    |
+| [!badge variant="warning" text="PATCH"] | /api/v1/actors/\{uuid\} | `ADMIN` | **Update** one actor using its **UUID**.    |
 | [!badge variant="success" text="POST"]  | /api/v1/actors/         | `ADMIN` | **Add** one actor.                          |
 | [!badge variant="danger" text="DELETE"] | /api/v1/actors/\{uuid\} | `ADMIN` | **Delete** one actor using its **UUID**.    |
-
-## Example
-
-+++ JavaScript
-TODO: Add sample code
-+++
 
 ## Schema
 

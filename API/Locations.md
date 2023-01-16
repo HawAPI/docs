@@ -13,15 +13,9 @@ Fetches a list of locations.
 | :-------------------------------------- | :------------------------- | :-----: | :--------------------------------------------- |
 | [!badge variant="primary" text="GET"]   | /api/v1/locations          |         | **Retrieves** all locations.                   |
 | [!badge variant="primary" text="GET"]   | /api/v1/locations/\{uuid\} |         | **Retrieves** one location using its **UUID**. |
-| [!badge variant="warning" text="PATCH"] | /api/v1/locations/\{uuid\} |  `MOD`  | **Update** one location using its **UUID**.    |
+| [!badge variant="warning" text="PATCH"] | /api/v1/locations/\{uuid\} | `ADMIN` | **Update** one location using its **UUID**.    |
 | [!badge variant="success" text="POST"]  | /api/v1/locations/         | `ADMIN` | **Add** one location.                          |
 | [!badge variant="danger" text="DELETE"] | /api/v1/locations/\{uuid\} | `ADMIN` | **Delete** one location using its **UUID**.    |
-
-## Example
-
-+++ JavaScript
-TODO: Add sample code
-+++
 
 ## Schema
 

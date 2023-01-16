@@ -13,15 +13,9 @@ Fetches a list of characters.
 | :-------------------------------------- | :-------------------------- | :-----: | :---------------------------------------------- |
 | [!badge variant="primary" text="GET"]   | /api/v1/characters          |         | **Retrieves** all characters.                   |
 | [!badge variant="primary" text="GET"]   | /api/v1/characters/\{uuid\} |         | **Retrieves** one character using its **UUID**. |
-| [!badge variant="warning" text="PATCH"] | /api/v1/characters/\{uuid\} |  `MOD`  | **Update** one character using its **UUID**.    |
+| [!badge variant="warning" text="PATCH"] | /api/v1/characters/\{uuid\} | `ADMIN` | **Update** one character using its **UUID**.    |
 | [!badge variant="success" text="POST"]  | /api/v1/characters/         | `ADMIN` | **Add** one character.                          |
 | [!badge variant="danger" text="DELETE"] | /api/v1/characters/\{uuid\} | `ADMIN` | **Delete** one character using its **UUID**.    |
-
-## Example
-
-+++ JavaScript
-TODO: Add sample code
-+++
 
 ## Schema
 

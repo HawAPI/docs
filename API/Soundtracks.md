@@ -13,15 +13,9 @@ Fetches a list of soundtracks.
 | :-------------------------------------- | :--------------------------- | :-----: | :----------------------------------------------- |
 | [!badge variant="primary" text="GET"]   | /api/v1/soundtracks          |         | **Retrieves** all soundtracks.                   |
 | [!badge variant="primary" text="GET"]   | /api/v1/soundtracks/\{uuid\} |         | **Retrieves** one soundtrack using its **UUID**. |
-| [!badge variant="warning" text="PATCH"] | /api/v1/soundtracks/\{uuid\} |  `MOD`  | **Update** one soundtrack using its **UUID**.    |
+| [!badge variant="warning" text="PATCH"] | /api/v1/soundtracks/\{uuid\} | `ADMIN` | **Update** one soundtrack using its **UUID**.    |
 | [!badge variant="success" text="POST"]  | /api/v1/soundtracks/         | `ADMIN` | **Add** one soundtrack.                          |
 | [!badge variant="danger" text="DELETE"] | /api/v1/soundtracks/\{uuid\} | `ADMIN` | **Delete** one soundtrack using its **UUID**.    |
-
-## Example
-
-+++ JavaScript
-TODO: Add sample code
-+++
 
 ## Schema
 

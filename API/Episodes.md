@@ -13,15 +13,9 @@ Fetches a list of episodes.
 | :-------------------------------------- | :------------------------ | :-----: | :-------------------------------------------- |
 | [!badge variant="primary" text="GET"]   | /api/v1/episodes          |         | **Retrieves** all episodes.                   |
 | [!badge variant="primary" text="GET"]   | /api/v1/episodes/\{uuid\} |         | **Retrieves** one episode using its **UUID**. |
-| [!badge variant="warning" text="PATCH"] | /api/v1/episodes/\{uuid\} |  `MOD`  | **Update** one episode using its **UUID**.    |
+| [!badge variant="warning" text="PATCH"] | /api/v1/episodes/\{uuid\} | `ADMIN` | **Update** one episode using its **UUID**.    |
 | [!badge variant="success" text="POST"]  | /api/v1/episodes/         | `ADMIN` | **Add** one episode.                          |
 | [!badge variant="danger" text="DELETE"] | /api/v1/episodes/\{uuid\} | `ADMIN` | **Delete** one episode using its **UUID**.    |
-
-## Example
-
-+++ JavaScript
-TODO: Add sample code
-+++
 
 ## Schema
 

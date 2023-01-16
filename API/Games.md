@@ -13,15 +13,9 @@ Fetches a list of games.
 | :-------------------------------------- | :--------------------- | :-----: | :----------------------------------------- |
 | [!badge variant="primary" text="GET"]   | /api/v1/games          |         | **Retrieves** all games.                   |
 | [!badge variant="primary" text="GET"]   | /api/v1/games/\{uuid\} |         | **Retrieves** one game using its **UUID**. |
-| [!badge variant="warning" text="PATCH"] | /api/v1/games/\{uuid\} |  `MOD`  | **Update** one game using its **UUID**.    |
+| [!badge variant="warning" text="PATCH"] | /api/v1/games/\{uuid\} | `ADMIN` | **Update** one game using its **UUID**.    |
 | [!badge variant="success" text="POST"]  | /api/v1/games/         | `ADMIN` | **Add** one game.                          |
 | [!badge variant="danger" text="DELETE"] | /api/v1/games/\{uuid\} | `ADMIN` | **Delete** one game using its **UUID**.    |
-
-## Example
-
-+++ JavaScript
-TODO: Add sample code
-+++
 
 ## Schema
 
