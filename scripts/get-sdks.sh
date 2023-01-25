@@ -7,13 +7,9 @@ cyan=$(tput setaf 6)
 
 git_raw=https://raw.githubusercontent.com
 readme_path=/main/README.md
-# repositories=(
-#     /HawAPI/js-sdk
-#     /HawAPI/java-sdk
-# )
 repositories=(
-    /lucjosin/lucasjosino.com
-    /lucjosin/on_audio_query
+    /HawAPI/js-sdk
+    /HawAPI/java-sdk
 )
 
 clean_downloads=false
