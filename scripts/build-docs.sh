@@ -13,7 +13,6 @@ repositories=(
 )
 
 clean_before=true
-clean_downloads=false
 
 # Check args
 
@@ -22,9 +21,6 @@ do
     case $arg in
        "-B"|"--clean-before")
           clean_before=false
-          ;;
-       "-D"|"--clean-downloads")
-          clean_downloads=true
           ;;
         "--help")
           echo "${blue}Usage: ${green}$0 [option...]" >&2
@@ -55,31 +51,8 @@ if $clean_before; then
     rm -rf build/
 fi
 
-## Remove '.downloads/' before build
-if $clean_downloads; then
-    echo "${cyan}[$0] ${green}Removing '.downloads/' folder..."
-    rm -rf .downloads/
-fi
 
-# Setup
-
-## Check if '.downloads/' already exist. If not, download all readme files.
-if ! [ -d ".downloads/" ]; then
-    echo "${cyan}[$0] ${green}Directory '.downloads/' not found!"
-    echo
-    mkdir -p .downloads/
-
-    for repo in "${repositories[@]}"; do
-        echo "${cyan}[$0] ${green}Downloading: '$git_raw$repo$readme_path'..."
-        wget "$git_raw$repo$readme_path" -q --show-progress -O ".downloads/${repo##*/}.md"
-    done
-fi
-
-## Copy all files inside '.downloads/' to 'SDK's/'
-for file in .downloads/*.md; do
-    echo "${cyan}[$0] ${green}Copying: '$file' to 'SDK's/'..."
-    cp --remove-destination "$file" "SDK's/${file##*/}"
-done
+./scripts/get-sdks.sh --clean-downloads
 
 # Build
 
