@@ -1,3 +1,7 @@
 # Build files
 
 /build/
+.downloads/
+SDK's/*
+!SDK's/index.md
+!SDK's/index.yaml
