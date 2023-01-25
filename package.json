@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "build": "./scripts/build-docs.sh",
+    "watch": "./scripts/watch-docs.sh",
+    "get": "./scripts/get-sdks.sh",
+    "clean": "./scripts/clean.sh"
+  }
+}
