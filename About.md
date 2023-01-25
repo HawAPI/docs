@@ -5,11 +5,7 @@ order: -1
 
 # About
 
-Technical support questions are best asked in the [Discussion](https://github.com/HawAPI/api/discussions) forum.
-
-Did you find a bug? Please create an [Issue](https://github.com/HawAPI/api/issues).
-
-Do you have a general inquiry? Please feel free to contact at hawapi@lucasjosino.com.
+Technical support questions check [Support](./Support.md).
 
 ## Maintainers
 
@@ -56,7 +52,7 @@ All licenses of the project, including third party **packages/libraries/dependen
 
 ### Project license
 
-> **HawAPI** is licensed under the [MIT License](https://github.com/HawAPI/api/LICENSE).
+> **HawAPI** is licensed under the [MIT License](https://github.com/HawAPI/HawAPI/LICENSE).
 
 ```
 MIT License

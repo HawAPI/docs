@@ -25,12 +25,8 @@ links:
     icon: mark-github
     target: blank
   - text: Discussions
-    link: https://github.com/HawAPI/api/discussions
+    link: https://github.com/HawAPI/feedback/discussions
     icon: comment-discussion
-    target: blank
-  - text: Issues
-    link: https://github.com/HawAPI/api/issues
-    icon: issue-opened
     target: blank
 footer:
   copyright: "&copy; Copyright {{ year }}. All rights reserved."
