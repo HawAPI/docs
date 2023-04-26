@@ -9,13 +9,12 @@ Fetches a list of episodes.
 
 ## Options
 
-| Method                                  | Url                       |  Role   | Description                                   |
-| :-------------------------------------- | :------------------------ | :-----: | :-------------------------------------------- |
-| [!badge variant="primary" text="GET"]   | /api/v1/episodes          |         | **Retrieves** all episodes.                   |
-| [!badge variant="primary" text="GET"]   | /api/v1/episodes/\{uuid\} |         | **Retrieves** one episode using its **UUID**. |
-| [!badge variant="warning" text="PATCH"] | /api/v1/episodes/\{uuid\} | `ADMIN` | **Update** one episode using its **UUID**.    |
-| [!badge variant="success" text="POST"]  | /api/v1/episodes/         | `ADMIN` | **Add** one episode.                          |
-| [!badge variant="danger" text="DELETE"] | /api/v1/episodes/\{uuid\} | `ADMIN` | **Delete** one episode using its **UUID**.    |
+| Method                                | Url                                                 | Description                     |
+| :------------------------------------ | :-------------------------------------------------- | :------------------------------ |
+| [!badge variant="primary" text="GET"] | /api/v1/episodes                                    | **Retrieves** all.              |
+| [!badge variant="primary" text="GET"] | /api/v1/episodes/\{uuid\}                           | **Retrieves** one by **UUID**.  |
+| [!badge variant="primary" text="GET"] | /api/v1/episodes/\{uuid\}/translations              | **Retrieves** all translations. |
+| [!badge variant="primary" text="GET"] | /api/v1/episodes/\{uuid\}/translations/\{language\} | **Retrieves** one translation.  |
 
 ## Schema
 
@@ -27,7 +26,7 @@ Returns a json with the following stucture:
 | href                                                          | String         |
 | title [[!badge variant="info" text="Filter"]](#filters)       | String         |
 | description [[!badge variant="info" text="Filter"]](#filters) | String         |
-| duration                                                      | Int            |
+| duration [[!badge variant="info" text="Filter"]](#filters)    | Int            |
 | episode_num [[!badge variant="info" text="Filter"]](#filters) | Int            |
 | next_episode                                                  | String         |
 | prev_epsisode                                                 | String         |
@@ -45,8 +44,9 @@ It's possible to use `sort` and `order` too. \
 See [Filters](../Guides/Filters.md)
 !!!
 
-| Field       | Example                                      |
-| :---------- | :------------------------------------------- |
-| title       | `/api/{version}/{item}?title={filter}`       |
-| duration    | `/api/{version}/{item}?duration={filter}`    |
-| episode_num | `/api/{version}/{item}?episode_num={filter}` |
+| Field       | Example              |
+| :---------- | :------------------- |
+| title       | `?title=Lorem`       |
+| description | `?description=Lorem` |
+| duration    | `?duration=1894895`  |
+| episode_num | `?episode_num=4}`    |

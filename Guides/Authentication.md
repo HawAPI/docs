@@ -4,7 +4,7 @@ icon: lock
 
 # Authentication
 
-HawAPI is a completely **Open API** and **no authentication** is required to **QUERY** and **GET** any data.
+HawAPI is a completely **Open API** and **no authentication** is required to **GET** any data.
 
 However, this also means that we've limited what you can use.
 
@@ -22,7 +22,9 @@ At the moment this API is not accepting any registration so, only [the first tie
 
 ```json
 {
-  "nikcname": "lorem",
+  "first_name": "Lorem",
+  "last_name": "Ipsum",
+  "username": "loremipsum",
   "email": "lorem@loremipsum.com",
   "password": "MYSUPERSECRETPASSWORD"
 }
@@ -32,8 +34,8 @@ At the moment this API is not accepting any registration so, only [the first tie
 
 ```json
 {
-  "nickname": "lorem",
-  "role": "DEV",
+  "username": "loremipsum",
+  "role": "BASIC",
   "token": "eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJodHRw
   czovL2hhd2FwaS50aGVwcm9qZWN0LmlkL2FwaS92MSIsInJvbGUiOiJERVYiLCJpc3MiOiJIYXdBUEkiLCJuaWNr
   bmFtZSI6ImxvcmVtIiwiaWF0IjoxNjcxNDk4NTQyLCJqdGkiOiIwZTdmOTg3Ni1kY2ZmLTQyNDQtYjY0OS01OTM1M2RhMjQwODgi
@@ -50,7 +52,7 @@ At the moment this API is not accepting any registration so, only [the first tie
 
 ```json
 {
-  "nikcname": "lorem",
+  "username": "lorem",
   "email": "lorem@loremipsum.com",
   "password": "MYSUPERSECRETPASSWORD"
 }
@@ -60,7 +62,7 @@ At the moment this API is not accepting any registration so, only [the first tie
 
 ```json
 {
-	"nickname": "lorem",
+	"username": "lorem",
 	"email": "lorem@loremipsum.com",
 	"role": "DEV",
 	"token": "eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJodHRw
@@ -80,7 +82,7 @@ At the moment this API is not accepting any registration so, only [the first tie
 
 ```json
 {
-  "nikcname": "lorem",
+  "username": "lorem",
   "email": "lorem@loremipsum.com",
   "password": "MYSUPERSECRETPASSWORD"
 }

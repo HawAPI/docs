@@ -9,13 +9,10 @@ Fetches a list of characters.
 
 ## Options
 
-| Method                                  | Url                         |  Role   | Description                                     |
-| :-------------------------------------- | :-------------------------- | :-----: | :---------------------------------------------- |
-| [!badge variant="primary" text="GET"]   | /api/v1/characters          |         | **Retrieves** all characters.                   |
-| [!badge variant="primary" text="GET"]   | /api/v1/characters/\{uuid\} |         | **Retrieves** one character using its **UUID**. |
-| [!badge variant="warning" text="PATCH"] | /api/v1/characters/\{uuid\} | `ADMIN` | **Update** one character using its **UUID**.    |
-| [!badge variant="success" text="POST"]  | /api/v1/characters/         | `ADMIN` | **Add** one character.                          |
-| [!badge variant="danger" text="DELETE"] | /api/v1/characters/\{uuid\} | `ADMIN` | **Delete** one character using its **UUID**.    |
+| Method                                | Url                         | Description                    |
+| :------------------------------------ | :-------------------------- | :----------------------------- |
+| [!badge variant="primary" text="GET"] | /api/v1/characters          | **Retrieves** all.             |
+| [!badge variant="primary" text="GET"] | /api/v1/characters/\{uuid\} | **Retrieves** one by **UUID**. |
 
 ## Schema
 
@@ -27,9 +24,9 @@ Returns a json with the following stucture:
 | href                                                         | String                                   |
 | first_name [[!badge variant="info" text="Filter"]](#filters) | String                                   |
 | last_name [[!badge variant="info" text="Filter"]](#filters)  | String                                   |
-| nicknames                                                    | List\<String\>                           |
-| birth_date                                                   | TIMESTAMP                                |
-| death_date                                                   | TIMESTAMP                                |
+| nicknames [[!badge variant="info" text="Filter"]](#filters)  | List\<String\>                           |
+| birth_date [[!badge variant="info" text="Filter"]](#filters) | TIMESTAMP                                |
+| death_date [[!badge variant="info" text="Filter"]](#filters) | TIMESTAMP                                |
 | gender [[!badge variant="info" text="Filter"]](#filters)     | Byte ([Why?](../Guides/ISO-IEC-5218.md)) |
 | thumbnail                                                    | String                                   |
 | actor                                                        | String                                   |
@@ -45,8 +42,11 @@ It's possible to use `sort` and `order` too. \
 See [Filters](../Guides/Filters.md)
 !!!
 
-| Field      | Example                                     |
-| :--------- | :------------------------------------------ |
-| first_name | `/api/{version}/{item}?first_name={filter}` |
-| last_name  | `/api/{version}/{item}?last_name={filter}`  |
-| gender     | `/api/{version}/{item}?gender={filter}`     |
+| Field      | Example                  |
+| :--------- | :----------------------- |
+| first_name | `?first_name=Lorem`      |
+| last_name  | `?last_name=Ipsum`       |
+| nicknames  | `?nicknames=ipsum,lorem` |
+| birth_date | `?birth_date=1888-01-01` |
+| death_date | `?death_date=2000-12-01` |
+| gender     | `?gender=0`              |

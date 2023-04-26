@@ -9,13 +9,12 @@ Fetches a list of seasons.
 
 ## Options
 
-| Method                                  | Url                      |  Role   | Description                                  |
-| :-------------------------------------- | :----------------------- | :-----: | :------------------------------------------- |
-| [!badge variant="primary" text="GET"]   | /api/v1/seasons          |         | **Retrieves** all seasons.                   |
-| [!badge variant="primary" text="GET"]   | /api/v1/seasons/\{uuid\} |         | **Retrieves** one season using its **UUID**. |
-| [!badge variant="warning" text="PATCH"] | /api/v1/seasons/\{uuid\} | `ADMIN` | **Update** one season using its **UUID**.    |
-| [!badge variant="success" text="POST"]  | /api/v1/seasons/         | `ADMIN` | **Add** one season.                          |
-| [!badge variant="danger" text="DELETE"] | /api/v1/seasons/\{uuid\} | `ADMIN` | **Delete** one season using its **UUID**.    |
+| Method                                | Url                                                | Description                     |
+| :------------------------------------ | :------------------------------------------------- | :------------------------------ |
+| [!badge variant="primary" text="GET"] | /api/v1/seasons                                    | **Retrieves** all.              |
+| [!badge variant="primary" text="GET"] | /api/v1/seasons/\{uuid\}                           | **Retrieves** one by **UUID**.  |
+| [!badge variant="primary" text="GET"] | /api/v1/seasons/\{uuid\}/translations              | **Retrieves** all translations. |
+| [!badge variant="primary" text="GET"] | /api/v1/seasons/\{uuid\}/translations/\{language\} | **Retrieves** one translation.  |
 
 ## Example
 
@@ -27,27 +26,27 @@ TODO: Add sample code
 
 Returns a json with the following stucture:
 
-| Field                                                        | Data Type      |
-| :----------------------------------------------------------- | :------------- |
-| uuid                                                         | UUID           |
-| href                                                         | String         |
-| title [[!badge variant="info" text="Filter"]](#filters)      | String         |
-| description                                                  | String         |
-| duration_total                                               | Int            |
-| genres [[!badge variant="info" text="Filter"]](#filters)     | List\<String\> |
-| season                                                       | Int            |
-| season_num [[!badge variant="info" text="Filter"]](#filters) | Int            |
-| release_date                                                 | TIMESTAMP      |
-| next_season                                                  | String         |
-| prev_season                                                  | String         |
-| episodes                                                     | List\<String\> |
-| soundtracks                                                  | List\<String\> |
-| trailers                                                     | List\<String\> |
-| budget                                                       | Int            |
-| images                                                       | List\<String\> |
-| sources                                                      | List\<String\> |
-| created_at                                                   | TIMESTAMP      |
-| updated_at                                                   | TIMESTAMP      |
+| Field                                                            | Data Type      |
+| :--------------------------------------------------------------- | :------------- |
+| uuid                                                             | UUID           |
+| href                                                             | String         |
+| title [[!badge variant="info" text="Filter"]](#filters)          | String         |
+| description [[!badge variant="info" text="Filter"]](#filters)    | String         |
+| duration_total [[!badge variant="info" text="Filter"]](#filters) | Int            |
+| genres [[!badge variant="info" text="Filter"]](#filters)         | List\<String\> |
+| season                                                           | Int            |
+| season_num [[!badge variant="info" text="Filter"]](#filters)     | Int            |
+| release_date [[!badge variant="info" text="Filter"]](#filters)   | TIMESTAMP      |
+| next_season                                                      | String         |
+| prev_season                                                      | String         |
+| episodes                                                         | List\<String\> |
+| soundtracks                                                      | List\<String\> |
+| trailers                                                         | List\<String\> |
+| budget [[!badge variant="info" text="Filter"]](#filters)         | Int            |
+| images                                                           | List\<String\> |
+| sources                                                          | List\<String\> |
+| created_at                                                       | TIMESTAMP      |
+| updated_at                                                       | TIMESTAMP      |
 
 ## Filters
 
@@ -56,8 +55,11 @@ It's possible to use `sort` and `order` too. \
 See [Filters](../Guides/Filters.md)
 !!!
 
-| Field      | Example                                     |
-| :--------- | :------------------------------------------ |
-| title      | `/api/{version}/{item}?title={filter}`      |
-| genres     | `/api/{version}/{item}?genres={filter}`     |
-| season_num | `/api/{version}/{item}?season_num={filter}` |
+| Field          | Example                    |
+| :------------- | :------------------------- |
+| title          | `?title=Lorem`             |
+| description    | `?description=Lorem`       |
+| duration_total | `?duration_total=254789`   |
+| genres         | `?genres=genre1,genre2`    |
+| season_num     | `?season_num=1`            |
+| release_date   | `?release_date=2015-01-01` |

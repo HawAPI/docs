@@ -9,35 +9,34 @@ Fetches a list of games.
 
 ## Options
 
-| Method                                  | Url                    |  Role   | Description                                |
-| :-------------------------------------- | :--------------------- | :-----: | :----------------------------------------- |
-| [!badge variant="primary" text="GET"]   | /api/v1/games          |         | **Retrieves** all games.                   |
-| [!badge variant="primary" text="GET"]   | /api/v1/games/\{uuid\} |         | **Retrieves** one game using its **UUID**. |
-| [!badge variant="warning" text="PATCH"] | /api/v1/games/\{uuid\} | `ADMIN` | **Update** one game using its **UUID**.    |
-| [!badge variant="success" text="POST"]  | /api/v1/games/         | `ADMIN` | **Add** one game.                          |
-| [!badge variant="danger" text="DELETE"] | /api/v1/games/\{uuid\} | `ADMIN` | **Delete** one game using its **UUID**.    |
+| Method                                | Url                                              | Description                     |
+| :------------------------------------ | :----------------------------------------------- | :------------------------------ |
+| [!badge variant="primary" text="GET"] | /api/v1/games                                    | **Retrieves** all.              |
+| [!badge variant="primary" text="GET"] | /api/v1/games/\{uuid\}                           | **Retrieves** one by **UUID**.  |
+| [!badge variant="primary" text="GET"] | /api/v1/games/\{uuid\}/translations              | **Retrieves** all translations. |
+| [!badge variant="primary" text="GET"] | /api/v1/games/\{uuid\}/translations/\{language\} | **Retrieves** one translation.  |
 
 ## Schema
 
 Returns a json with the following stucture:
 
-| Field                                                       | Data Type      |
-| :---------------------------------------------------------- | :------------- |
-| uuid                                                        | UUID           |
-| href                                                        | String         |
-| name [[!badge variant="info" text="Filter"]](#filters)      | String         |
-| platforms [[!badge variant="info" text="Filter"]](#filters) | List\<String\> |
-| genres [[!badge variant="info" text="Filter"]](#filters)    | List\<String\> |
-| publishers                                                  | List\<String\> |
-| developers                                                  | List\<String\> |
-| release_date                                                | TIMESTAMP      |
-| url                                                         | String         |
-| trailer                                                     | String         |
-| thumbnail                                                   | String         |
-| images                                                      | List\<String\> |
-| sources                                                     | List\<String\> |
-| created_at                                                  | TIMESTAMP      |
-| updated_at                                                  | TIMESTAMP      |
+| Field                                                          | Data Type      |
+| :------------------------------------------------------------- | :------------- |
+| uuid                                                           | UUID           |
+| href                                                           | String         |
+| name [[!badge variant="info" text="Filter"]](#filters)         | String         |
+| genres [[!badge variant="info" text="Filter"]](#filters)       | List\<String\> |
+| platforms [[!badge variant="info" text="Filter"]](#filters)    | List\<String\> |
+| publishers [[!badge variant="info" text="Filter"]](#filters)   | List\<String\> |
+| developers [[!badge variant="info" text="Filter"]](#filters)   | List\<String\> |
+| release_date [[!badge variant="info" text="Filter"]](#filters) | TIMESTAMP      |
+| url                                                            | String         |
+| trailer                                                        | String         |
+| thumbnail                                                      | String         |
+| images                                                         | List\<String\> |
+| sources                                                        | List\<String\> |
+| created_at                                                     | TIMESTAMP      |
+| updated_at                                                     | TIMESTAMP      |
 
 ## Filters
 
@@ -46,8 +45,11 @@ It's possible to use `sort` and `order` too. \
 See [Filters](../Guides/Filters.md)
 !!!
 
-| Field     | Example                                    |
-| :-------- | :----------------------------------------- |
-| name      | `/api/{version}/{item}?name={filter}`      |
-| platforms | `/api/{version}/{item}?platforms={filter}` |
-| genres    | `/api/{version}/{item}?genres={filter}`    |
+| Field        | Example                             |
+| :----------- | :---------------------------------- |
+| name         | `?name=Lorem`                       |
+| genres       | `?genres=genre1,genre2`             |
+| platforms    | `?platforms=platform1,platform2`    |
+| publishers   | `?publishers=publisher1,publisher2` |
+| developers   | `?developers=developer1,developer2` |
+| release_date | `?release_date=2001-01-01`          |

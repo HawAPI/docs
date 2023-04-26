@@ -9,29 +9,28 @@ Fetches a list of locations.
 
 ## Options
 
-| Method                                  | Url                        |  Role   | Description                                    |
-| :-------------------------------------- | :------------------------- | :-----: | :--------------------------------------------- |
-| [!badge variant="primary" text="GET"]   | /api/v1/locations          |         | **Retrieves** all locations.                   |
-| [!badge variant="primary" text="GET"]   | /api/v1/locations/\{uuid\} |         | **Retrieves** one location using its **UUID**. |
-| [!badge variant="warning" text="PATCH"] | /api/v1/locations/\{uuid\} | `ADMIN` | **Update** one location using its **UUID**.    |
-| [!badge variant="success" text="POST"]  | /api/v1/locations/         | `ADMIN` | **Add** one location.                          |
-| [!badge variant="danger" text="DELETE"] | /api/v1/locations/\{uuid\} | `ADMIN` | **Delete** one location using its **UUID**.    |
+| Method                                | Url                                                  | Description                     |
+| :------------------------------------ | :--------------------------------------------------- | :------------------------------ |
+| [!badge variant="primary" text="GET"] | /api/v1/locations                                    | **Retrieves** all.              |
+| [!badge variant="primary" text="GET"] | /api/v1/locations/\{uuid\}                           | **Retrieves** one by **UUID**.  |
+| [!badge variant="primary" text="GET"] | /api/v1/locations/\{uuid\}/translations              | **Retrieves** all translations. |
+| [!badge variant="primary" text="GET"] | /api/v1/locations/\{uuid\}/translations/\{language\} | **Retrieves** one translation.  |
 
 ## Schema
 
 Returns a json with the following stucture:
 
-| Field                                                  | Data Type      |
-| :----------------------------------------------------- | :------------- |
-| uuid                                                   | UUID           |
-| href                                                   | String         |
-| name [[!badge variant="info" text="Filter"]](#filters) | String         |
-| description                                            | String         |
-| thumbnail                                              | String         |
-| images                                                 | List\<String\> |
-| sources                                                | List\<String\> |
-| created_at                                             | TIMESTAMP      |
-| updated_at                                             | TIMESTAMP      |
+| Field                                                         | Data Type      |
+| :------------------------------------------------------------ | :------------- |
+| uuid                                                          | UUID           |
+| href                                                          | String         |
+| name [[!badge variant="info" text="Filter"]](#filters)        | String         |
+| description [[!badge variant="info" text="Filter"]](#filters) | String         |
+| thumbnail                                                     | String         |
+| images                                                        | List\<String\> |
+| sources                                                       | List\<String\> |
+| created_at                                                    | TIMESTAMP      |
+| updated_at                                                    | TIMESTAMP      |
 
 ## Filters
 
@@ -40,6 +39,7 @@ It's possible to use `sort` and `order` too. \
 See [Filters](../Guides/Filters.md)
 !!!
 
-| Field | Example                               |
-| :---- | :------------------------------------ |
-| name  | `/api/{version}/{item}?name={filter}` |
+| Field       | Example              |
+| :---------- | :------------------- |
+| name        | `?name=Lorem`        |
+| description | `?description=Lorem` |
