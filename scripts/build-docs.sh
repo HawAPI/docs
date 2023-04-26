@@ -13,18 +13,22 @@ repositories=(
 )
 
 clean_before=true
+skip_sdks=false
 
 # Check args
-
 for arg in "$@"
 do
     case $arg in
+       "-S"|"--skip-sdks")
+          skip_sdks=true
+          ;;
        "-B"|"--clean-before")
           clean_before=false
           ;;
         "--help")
           echo "${blue}Usage: ${green}$0 [option...]" >&2
           echo
+          echo "   ${cyan}-S, --skip-sdks           ${green}Skip download of 'sdks'"
           echo "   ${cyan}-B, --clean-before           ${green}Remove 'build/' before build"
           echo "   ${cyan}-D, --clean-downloads        ${green}Remove '.downloads/' before build"
           echo
@@ -51,9 +55,13 @@ if $clean_before; then
     rm -rf build/
 fi
 
-
-./scripts/get-sdks.sh --clean-downloads
+## Get 'sdks'
+if ! $skip_sdks; then
+    ./scripts/get-sdks.sh --clean-downloads
+fi
 
 # Build
-
 retype build
+
+# Update website colors
+node scripts/js/update-colors.mjs

@@ -15,7 +15,6 @@ repositories=(
 clean_downloads=false
 
 # Check args
-
 for arg in "$@"
 do
     case $arg in
