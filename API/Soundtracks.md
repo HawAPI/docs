@@ -9,10 +9,11 @@ Fetches a list of soundtracks.
 
 ## Options
 
-| Method                                | Url                          | Description                    |
-| :------------------------------------ | :--------------------------- | :----------------------------- |
-| [!badge variant="primary" text="GET"] | /api/v1/soundtracks          | **Retrieves** all.             |
-| [!badge variant="primary" text="GET"] | /api/v1/soundtracks/\{uuid\} | **Retrieves** one by **UUID**. |
+| Method                                | Url                                       | Description                    |
+| :------------------------------------ | :---------------------------------------- | :----------------------------- |
+| [!badge variant="primary" text="GET"] | /api/{{api_version}}/soundtracks          | **Retrieves** all.             |
+| [!badge variant="primary" text="GET"] | /api/{{api_version}}/soundtracks/\{uuid\} | **Retrieves** one by **UUID**. |
+| [!badge variant="primary" text="GET"] | /api/{{api_version}}/soundtracks/random   | **Retrieves** one random.      |
 
 ## Schema
 

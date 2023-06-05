@@ -9,12 +9,13 @@ Fetches a list of games.
 
 ## Options
 
-| Method                                | Url                                              | Description                     |
-| :------------------------------------ | :----------------------------------------------- | :------------------------------ |
-| [!badge variant="primary" text="GET"] | /api/v1/games                                    | **Retrieves** all.              |
-| [!badge variant="primary" text="GET"] | /api/v1/games/\{uuid\}                           | **Retrieves** one by **UUID**.  |
-| [!badge variant="primary" text="GET"] | /api/v1/games/\{uuid\}/translations              | **Retrieves** all translations. |
-| [!badge variant="primary" text="GET"] | /api/v1/games/\{uuid\}/translations/\{language\} | **Retrieves** one translation.  |
+| Method                                | Url                                                           | Description                     |
+| :------------------------------------ | :------------------------------------------------------------ | :------------------------------ |
+| [!badge variant="primary" text="GET"] | /api/{{api_version}}/games                                    | **Retrieves** all.              |
+| [!badge variant="primary" text="GET"] | /api/{{api_version}}/games/\{uuid\}                           | **Retrieves** one by **UUID**.  |
+| [!badge variant="primary" text="GET"] | /api/{{api_version}}/games/\{uuid\}/translations              | **Retrieves** all translations. |
+| [!badge variant="primary" text="GET"] | /api/{{api_version}}/games/\{uuid\}/translations/\{language\} | **Retrieves** one translation.  |
+| [!badge variant="primary" text="GET"] | /api/{{api_version}}/games/random                             | **Retrieves** one random.       |
 
 ## Schema
 

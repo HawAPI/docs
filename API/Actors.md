@@ -9,12 +9,15 @@ Fetches a list of actors.
 
 ## Options
 
-| Method                                | Url                                        | Description                               |
-| :------------------------------------ | :----------------------------------------- | :---------------------------------------- |
-| [!badge variant="primary" text="GET"] | /api/v1/actors                             | **Retrieves** all.                        |
-| [!badge variant="primary" text="GET"] | /api/v1/actors/\{uuid\}                    | **Retrieves** one by **UUID**.            |
-| [!badge variant="primary" text="GET"] | /api/v1/actors/\{uuid\}/socials            | **Retrieves** all socials.                |
-| [!badge variant="primary" text="GET"] | /api/v1/actors/\{uuid\}/socials/\{social\} | **Retrieves** one social by the **name**. |
+You can use the [Try it (Actors)]({{url}}/try-it/#/actors) section to test endpoints request
+
+| Method                                | Url                                                     | Description                               |
+| :------------------------------------ | :------------------------------------------------------ | :---------------------------------------- |
+| [!badge variant="primary" text="GET"] | /api/{{api_version}}/actors                             | **Retrieves** all.                        |
+| [!badge variant="primary" text="GET"] | /api/{{api_version}}/actors/\{uuid\}                    | **Retrieves** one by **UUID**.            |
+| [!badge variant="primary" text="GET"] | /api/{{api_version}}/actors/\{uuid\}/socials            | **Retrieves** all socials.                |
+| [!badge variant="primary" text="GET"] | /api/{{api_version}}/actors/\{uuid\}/socials/\{social\} | **Retrieves** one social by the **name**. |
+| [!badge variant="primary" text="GET"] | /api/{{api_version}}/actors/random                      | **Retrieves** one random.                 |
 
 ## Schema
 

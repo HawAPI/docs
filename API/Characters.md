@@ -9,10 +9,11 @@ Fetches a list of characters.
 
 ## Options
 
-| Method                                | Url                         | Description                    |
-| :------------------------------------ | :-------------------------- | :----------------------------- |
-| [!badge variant="primary" text="GET"] | /api/v1/characters          | **Retrieves** all.             |
-| [!badge variant="primary" text="GET"] | /api/v1/characters/\{uuid\} | **Retrieves** one by **UUID**. |
+| Method                                | Url                                      | Description                    |
+| :------------------------------------ | :--------------------------------------- | :----------------------------- |
+| [!badge variant="primary" text="GET"] | /api/{{api_version}}/characters          | **Retrieves** all.             |
+| [!badge variant="primary" text="GET"] | /api/{{api_version}}/characters/\{uuid\} | **Retrieves** one by **UUID**. |
+| [!badge variant="primary" text="GET"] | /api/{{api_version}}/characters/random   | **Retrieves** one random.      |
 
 ## Schema
 

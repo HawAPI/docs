@@ -9,12 +9,13 @@ Fetches a list of episodes.
 
 ## Options
 
-| Method                                | Url                                                 | Description                     |
-| :------------------------------------ | :-------------------------------------------------- | :------------------------------ |
-| [!badge variant="primary" text="GET"] | /api/v1/episodes                                    | **Retrieves** all.              |
-| [!badge variant="primary" text="GET"] | /api/v1/episodes/\{uuid\}                           | **Retrieves** one by **UUID**.  |
-| [!badge variant="primary" text="GET"] | /api/v1/episodes/\{uuid\}/translations              | **Retrieves** all translations. |
-| [!badge variant="primary" text="GET"] | /api/v1/episodes/\{uuid\}/translations/\{language\} | **Retrieves** one translation.  |
+| Method                                | Url                                                              | Description                     |
+| :------------------------------------ | :--------------------------------------------------------------- | :------------------------------ |
+| [!badge variant="primary" text="GET"] | /api/{{api_version}}/episodes                                    | **Retrieves** all.              |
+| [!badge variant="primary" text="GET"] | /api/{{api_version}}/episodes/\{uuid\}                           | **Retrieves** one by **UUID**.  |
+| [!badge variant="primary" text="GET"] | /api/{{api_version}}/episodes/\{uuid\}/translations              | **Retrieves** all translations. |
+| [!badge variant="primary" text="GET"] | /api/{{api_version}}/episodes/\{uuid\}/translations/\{language\} | **Retrieves** one translation.  |
+| [!badge variant="primary" text="GET"] | /api/{{api_version}}/episodes/random                             | **Retrieves** one random.       |
 
 ## Schema
 

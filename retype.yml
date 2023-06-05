@@ -44,3 +44,8 @@ footer:
 edit:
   repo: "https://github.com/HawAPI/docs/"
   branch: main
+data:
+  api_version: v1
+  url: https://hawapi.theproject.id
+  git: https://github.com/HawAPI/HawAPI
+  git_home: https://github.com/HawAPI

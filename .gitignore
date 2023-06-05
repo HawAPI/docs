@@ -3,6 +3,7 @@
 /build/
 .downloads/
 tmp/
+retype.manifest
 
 SDK's/*
 !SDK's/index.md

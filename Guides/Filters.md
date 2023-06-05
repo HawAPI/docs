@@ -19,7 +19,7 @@ All filters supported by all endpoints
 Usage Example:
 
 ```
-curl https://hawapi.theproject.id/api/v1/actors?language=en-US&size=10&page=1&sort=first_name,DESC
+curl {{url}}/api/{{api_version}}/actors?language=en-US&size=10&page=1&sort=first_name,DESC
 ```
 
 !!!info Info
@@ -32,19 +32,12 @@ The response pagination is enable by default with `size=10` and `page=1`.
 
 You can checkout all informations on response `header`.
 
-```
-X-Pagination-Page
-X-Pagination-Page-Size
-X-Pagination-Page-Count
-X-Pagination-Item-Count
-```
-
-| Header                  | Description                     |
-| :---------------------- | :------------------------------ |
-| X-Pagination-Page       | Current page                    |
-| X-Pagination-Page-Size  | Amount of items inside the page |
-| X-Pagination-Page-Count | Total pages                     |
-| X-Pagination-Item-Count | Total items                     |
+| Header                  | Description                                          |
+| :---------------------- | :--------------------------------------------------- |
+| X-Pagination-Page-Index | Current page index                                   |
+| X-Pagination-Page-Size  | Amount of items inside each page                     |
+| X-Pagination-Page-Total | Total pages(Will be overwrite if `size` is provided) |
+| X-Pagination-Item-Total | Total items                                          |
 
 ## Modification
 
@@ -69,5 +62,5 @@ Usage Example:
 > All characters with **last name `like` Wheeler**, **gender `equals to` 1** and **birth date `greater or equals to` 1967-01-01**
 
 ```
-curl https://hawapi.theproject.id/api/v1/characters?last_name=*Wheeler&gender=1&birth_date=>=1967-01-01
+curl {{url}}/api/{{api_version}}/characters?last_name=*Wheeler&gender=1&birth_date=>=1967-01-01
 ```
