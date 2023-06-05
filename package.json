@@ -1,7 +1,8 @@
 {
   "scripts": {
     "build": "./scripts/build-docs.sh",
-    "watch": "retype watch",
+    "watch": "retype start",
+    "dev": "retype start",
     "get-sdks": "./scripts/get-sdks.sh",
     "clean": "./scripts/clean.sh"
   }
