@@ -9,12 +9,13 @@ Fetches a list of seasons.
 
 ## Options
 
-| Method                                | Url                                                | Description                     |
-| :------------------------------------ | :------------------------------------------------- | :------------------------------ |
-| [!badge variant="primary" text="GET"] | /api/v1/seasons                                    | **Retrieves** all.              |
-| [!badge variant="primary" text="GET"] | /api/v1/seasons/\{uuid\}                           | **Retrieves** one by **UUID**.  |
-| [!badge variant="primary" text="GET"] | /api/v1/seasons/\{uuid\}/translations              | **Retrieves** all translations. |
-| [!badge variant="primary" text="GET"] | /api/v1/seasons/\{uuid\}/translations/\{language\} | **Retrieves** one translation.  |
+| Method                                | Url                                                             | Description                     |
+| :------------------------------------ | :-------------------------------------------------------------- | :------------------------------ |
+| [!badge variant="primary" text="GET"] | /api/{{api_version}}/seasons                                    | **Retrieves** all.              |
+| [!badge variant="primary" text="GET"] | /api/{{api_version}}/seasons/\{uuid\}                           | **Retrieves** one by **UUID**.  |
+| [!badge variant="primary" text="GET"] | /api/{{api_version}}/seasons/\{uuid\}/translations              | **Retrieves** all translations. |
+| [!badge variant="primary" text="GET"] | /api/{{api_version}}/seasons/\{uuid\}/translations/\{language\} | **Retrieves** one translation.  |
+| [!badge variant="primary" text="GET"] | /api/{{api_version}}/seasons/random                             | **Retrieves** one random.       |
 
 ## Example
 
