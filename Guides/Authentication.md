@@ -16,7 +16,7 @@ However, this also means that we've limited what you can use.
 At the moment this API is not accepting any registration so, only [the first tier(ANONYMOUS)](Rate-Limiting.md) are a available.
 !!!
 
-> [!badge variant="success" text="POST"] /api/auth/register
+> [!badge variant="success" text="POST"] /api/{{api_version}}/auth/register
 
 ### Request
 
@@ -26,7 +26,8 @@ At the moment this API is not accepting any registration so, only [the first tie
   "last_name": "Ipsum",
   "username": "loremipsum",
   "email": "lorem@loremipsum.com",
-  "password": "MYSUPERSECRETPASSWORD"
+  "password": "MYSUPERSECRETPASSWORD",
+  "role": "BASIC" // Default value
 }
 ```
 
@@ -46,7 +47,7 @@ At the moment this API is not accepting any registration so, only [the first tie
 
 ## Authenticate
 
-> [!badge variant="success" text="POST"] /api/auth/authenticate
+> [!badge variant="success" text="POST"] /api/{{api_version}}/auth/authenticate
 
 ### Request
 
@@ -76,7 +77,7 @@ At the moment this API is not accepting any registration so, only [the first tie
 
 ## Delete
 
-> [!badge variant="success" text="POST"] /api/auth/delete
+> [!badge variant="success" text="POST"] /api/{{api_version}}/auth/delete
 
 ### Request
 
