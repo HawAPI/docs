@@ -5,7 +5,7 @@ order: 1
 
 # FAQ
 
-Technical support questions are best asked in the [Discussion](https://github.com/HawAPI/feedback/discussions) forum.
+Technical support questions are best asked in the [Discussion :icon-link-external:]({{git_home}}/feedback/discussions) forum.
 
 ==- It's a free API?
 Yes, free and open source.
@@ -22,7 +22,7 @@ See more: [!ref Rate Limiting](./Guides/Rate-Limiting.md)
 ==- What endpoint do I use to DELETE/UPDATE/POST data?
 This API is **read-only** so, there is no data manipulation endpoint.
 
-If you found some wrong information. Please [informe us](https://github.com/HawAPI/api-data/issues).
+If you found some wrong information. Please [informe us :icon-link-external:]({{git_home}}/api-data/issues).
 ==- Where can I get more help?
 Check out the [about page](About.md)
 ==-
