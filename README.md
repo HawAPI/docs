@@ -11,29 +11,33 @@ All this information is available through a RESTful API implemented with [_Java 
 ## Quickstart
 
 :::tiles
-<a href="/guides/i18n" class="title-box">I18N<span class="subtitle">Internationalization Support</span></a>
+<a href="./guides/i18n" class="title-box">I18N<span class="subtitle">Internationalization Support</span></a>
 
-<a href="/guides/filters" class="title-box">Filters<span class="subtitle">Endpoint Filters</span></a>
+<a href="./guides/filters" class="title-box">Filters<span class="subtitle">Endpoint Filters</span></a>
 
-<a href="/guides/rate-limiting" class="title-box">Rate Limiting<span class="subtitle">API Limits & Tiers</span></a>
+<a href="./guides/rate-limiting" class="title-box">Rate Limiting<span class="subtitle">API Limits & Tiers</span></a>
 
-<a href="/guides/authentication" class="title-box">Authentication<span class="subtitle">API Authentication</span></a>
+<a href="./guides/authentication" class="title-box">Authentication<span class="subtitle">API Authentication</span></a>
 
-<a href="/guides/cors" class="title-box">CORS<span class="subtitle">Cross-Origin Request</span></a>
+<a href="./guides/caching" class="title-box">Caching<span class="subtitle">Cache & Validation</span></a>
 
-<a href="/guides/javadoc" class="title-box">Javadoc<span class="subtitle">Generated Docs</span></a>
+<a href="./guides/cors" class="title-box">CORS<span class="subtitle">Cross-Origin Request</span></a>
+
+<a href="./guides/javadoc" class="title-box">Javadoc<span class="subtitle">Generated Docs</span></a>
+
+<a href="./faq" class="title-box">FAQ<span class="subtitle">Common questions</span></a>
 :::
 
 ## About
 
 :::tiles
-<a href="/faq" class="title-box">FAQ<span class="subtitle">Common questions</span></a>
+<a href="./about#fair-use-policy" class="title-box">Maintainers<span class="subtitle">Project Maintainers</span></a>
 
-<a href="/about#fair-use-policy" class="title-box">Fair Use Policy<span class="subtitle">Controlling usage</span></a>
+<a href="./about#fair-use-policy" class="title-box">Fair Use Policy<span class="subtitle">Controlling usage</span></a>
 
-<a href="/about#copyright" class="title-box">Copyright<span class="subtitle">Data and images are used</span></a>
+<a href="./about#copyright" class="title-box">Copyright<span class="subtitle">Data and images are used</span></a>
 
-<a href="/about#licenses" class="title-box">Licenses<span class="subtitle">All licenses of the project</span></a>
+<a href="./about#licenses" class="title-box">Licenses<span class="subtitle">All licenses of the project</span></a>
 :::
 
 <style>
@@ -56,7 +60,7 @@ All this information is available through a RESTful API implemented with [_Java 
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        transition: 200ms;
+        transition: 250ms;
         color: #fff !important;
         text-decoration: none !important;
     }
@@ -66,8 +70,8 @@ All this information is available through a RESTful API implemented with [_Java 
     }
 
     .tiles p:hover .title-box {
-        border: 1px solid rgb(95 160 255/var(--tw-text-opacity));
-        color: rgb(95 160 255/var(--tw-text-opacity)) !important;
+        border: 1px solid rgb(179 0 0/var(--tw-text-opacity));
+        color: rgb(179 0 0/var(--tw-text-opacity)) !important;
     }
 
     @media (max-width: 1500px) {
