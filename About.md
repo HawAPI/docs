@@ -96,11 +96,10 @@ SOFTWARE.
 [Github :icon-link-external:](https://github.com/MarcGiffing/bucket4j-spring-boot-starter) \
 [Apache License 2.0 :icon-link-external:](https://github.com/MarcGiffing/bucket4j-spring-boot-starter/blob/master/LICENSE)
 
-==- hazelcast
+==- caffeine
 
-[Github :icon-link-external:](https://github.com/hazelcast/hazelcast) \
-[Apache License 2.0 :icon-link-external:](https://github.com/hazelcast/hazelcast/blob/master/licenses/apache-v2-license.txt) \
-[Hazelcast Community License :icon-link-external:](https://github.com/hazelcast/hazelcast/blob/master/licenses/hazelcast-community-license.txt)
+[Github :icon-link-external:](https://github.com/ben-manes/caffeine/) \
+[Apache License 2.0 :icon-link-external:](https://github.com/ben-manes/caffeine/blob/master/LICENSE)
 
 ==- springdoc-openapi-ui
 
