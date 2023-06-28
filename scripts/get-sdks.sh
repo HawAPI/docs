@@ -9,7 +9,6 @@ git_raw=https://raw.githubusercontent.com
 readme_path=/main/README.md
 repositories=(
     /HawAPI/js-sdk
-    /HawAPI/java-sdk
 )
 
 clean_downloads=false
@@ -67,6 +66,16 @@ mkdir -p .downloads/
 for repo in "${repositories[@]}"; do
     echo "${cyan}[$0] ${green}Downloading: '$git_raw$repo$readme_path'..."
     wget "$git_raw$repo$readme_path" -q --show-progress -O ".downloads/${repo##*/}.md"
+done
+
+## Delete empty files.
+## 
+## Downloading from a 'not found file' returns a empty.
+for file in $(find .downloads/ -type f -name '*.md' -empty); 
+do 
+    if [[ ! -s $file ]]; then 
+        rm -rf $file; 
+    fi; 
 done
 
 ## Copy all files inside '.downloads/' to 'SDK's/'
