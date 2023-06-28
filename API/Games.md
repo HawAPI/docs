@@ -25,14 +25,19 @@ Returns a json with the following stucture:
 | :------------------------------------------------------------- | :------------- |
 | uuid                                                           | UUID           |
 | href                                                           | String         |
+| stores                                                         | List\<String\> |
+| modes                                                          | List\<String\> |
+| tags                                                           | List\<String\> |
 | name [[!badge variant="info" text="Filter"]](#filters)         | String         |
 | genres [[!badge variant="info" text="Filter"]](#filters)       | List\<String\> |
 | platforms [[!badge variant="info" text="Filter"]](#filters)    | List\<String\> |
 | publishers [[!badge variant="info" text="Filter"]](#filters)   | List\<String\> |
 | developers [[!badge variant="info" text="Filter"]](#filters)   | List\<String\> |
 | release_date [[!badge variant="info" text="Filter"]](#filters) | TIMESTAMP      |
-| url                                                            | String         |
+| website                                                        | String         |
+| playtime                                                       | Integer        |
 | trailer                                                        | String         |
+| age_rating                                                     | String         |
 | thumbnail                                                      | String         |
 | images                                                         | List\<String\> |
 | sources                                                        | List\<String\> |
