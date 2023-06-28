@@ -33,7 +33,7 @@ Returns a json with the following stucture:
 | platforms [[!badge variant="info" text="Filter"]](#filters)    | List\<String\> |
 | publishers [[!badge variant="info" text="Filter"]](#filters)   | List\<String\> |
 | developers [[!badge variant="info" text="Filter"]](#filters)   | List\<String\> |
-| release_date [[!badge variant="info" text="Filter"]](#filters) | TIMESTAMP      |
+| release_date [[!badge variant="info" text="Filter"]](#filters) | Date           |
 | website                                                        | String         |
 | playtime                                                       | Integer        |
 | trailer                                                        | String         |
@@ -41,8 +41,8 @@ Returns a json with the following stucture:
 | thumbnail                                                      | String         |
 | images                                                         | List\<String\> |
 | sources                                                        | List\<String\> |
-| created_at                                                     | TIMESTAMP      |
-| updated_at                                                     | TIMESTAMP      |
+| created_at                                                     | Date           |
+| updated_at                                                     | Date           |
 
 ## Filters
 

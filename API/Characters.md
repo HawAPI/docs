@@ -26,15 +26,15 @@ Returns a json with the following stucture:
 | first_name [[!badge variant="info" text="Filter"]](#filters) | String                                   |
 | last_name [[!badge variant="info" text="Filter"]](#filters)  | String                                   |
 | nicknames [[!badge variant="info" text="Filter"]](#filters)  | List\<String\>                           |
-| birth_date [[!badge variant="info" text="Filter"]](#filters) | TIMESTAMP                                |
-| death_date [[!badge variant="info" text="Filter"]](#filters) | TIMESTAMP                                |
+| birth_date [[!badge variant="info" text="Filter"]](#filters) | Date                                     |
+| death_date [[!badge variant="info" text="Filter"]](#filters) | Date                                     |
 | gender [[!badge variant="info" text="Filter"]](#filters)     | Byte ([Why?](../Guides/ISO-IEC-5218.md)) |
 | thumbnail                                                    | String                                   |
 | actor                                                        | String                                   |
 | images                                                       | List\<String\>                           |
 | sources                                                      | List\<String\>                           |
-| created_at                                                   | TIMESTAMP                                |
-| updated_at                                                   | TIMESTAMP                                |
+| created_at                                                   | Date                                     |
+| updated_at                                                   | Date                                     |
 
 ## Filters
 

@@ -30,8 +30,8 @@ Returns a json with the following stucture:
 | thumbnail                                                     | String         |
 | images                                                        | List\<String\> |
 | sources                                                       | List\<String\> |
-| created_at                                                    | TIMESTAMP      |
-| updated_at                                                    | TIMESTAMP      |
+| created_at                                                    | Date           |
+| updated_at                                                    | Date           |
 
 ## Filters
 

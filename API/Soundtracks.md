@@ -27,12 +27,12 @@ Returns a json with the following stucture:
 | duration [[!badge variant="info" text="Filter"]](#filters)     | Int            |
 | artist [[!badge variant="info" text="Filter"]](#filters)       | String         |
 | album [[!badge variant="info" text="Filter"]](#filters)        | String         |
-| release_date [[!badge variant="info" text="Filter"]](#filters) | TIMESTAMP      |
+| release_date [[!badge variant="info" text="Filter"]](#filters) | Date           |
 | urls                                                           | List\<String\> |
 | thumbnail                                                      | String         |
 | sources                                                        | List\<String\> |
-| created_at                                                     | TIMESTAMP      |
-| updated_at                                                     | TIMESTAMP      |
+| created_at                                                     | Date           |
+| updated_at                                                     | Date           |
 
 ## Filters
 

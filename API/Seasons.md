@@ -37,7 +37,7 @@ Returns a json with the following stucture:
 | genres [[!badge variant="info" text="Filter"]](#filters)         | List\<String\> |
 | season                                                           | Int            |
 | season_num [[!badge variant="info" text="Filter"]](#filters)     | Int            |
-| release_date [[!badge variant="info" text="Filter"]](#filters)   | TIMESTAMP      |
+| release_date [[!badge variant="info" text="Filter"]](#filters)   | Date           |
 | next_season                                                      | String         |
 | prev_season                                                      | String         |
 | episodes                                                         | List\<String\> |
@@ -46,8 +46,8 @@ Returns a json with the following stucture:
 | budget [[!badge variant="info" text="Filter"]](#filters)         | Int            |
 | images                                                           | List\<String\> |
 | sources                                                          | List\<String\> |
-| created_at                                                       | TIMESTAMP      |
-| updated_at                                                       | TIMESTAMP      |
+| created_at                                                       | Date           |
+| updated_at                                                       | Date           |
 
 ## Filters
 
