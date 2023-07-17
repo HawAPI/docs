@@ -5,5 +5,8 @@
     "dev": "retype start",
     "get-sdks": "./scripts/get-sdks.sh",
     "clean": "./scripts/clean.sh"
+  },
+  "devDependencies": {
+    "retypeapp": "^3.0.3"
   }
 }

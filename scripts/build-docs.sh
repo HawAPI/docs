@@ -41,11 +41,9 @@ echo
 echo "${blue}Script: ${green}$0"
 echo
 
-## Check requisites
-if ! type retype; then
-    echo "${cyan}[$0] ${red}<retype> command not found!"
-    exit 1
-fi
+## Install requisites
+yarn install
+yarn add retypeapp --dev
 
 # Clean
 
@@ -61,7 +59,7 @@ if ! $skip_sdks; then
 fi
 
 # Build
-retype build
+yarn retype build
 
 # Update website colors
 node scripts/js/update-colors.mjs

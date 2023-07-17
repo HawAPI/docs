@@ -1,9 +1,14 @@
+# Yarn
+node_modules/
+
 # Build files
 
 /build/
 .downloads/
 tmp/
 retype.manifest
+
+# SDK's files
 
 SDK's/*
 !SDK's/index.md
