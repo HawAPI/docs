@@ -8,11 +8,11 @@ order: 1
 
 Each API plan comes with a requests limiter. Every API call you make costs a request
 
-|   Tier    |   Limits   | Price  | Auth  | Permissions |
-| :-------: | :--------: | :----: | :---: | :---------: |
-| ANONYMOUS | 4 req/60s  | `FREE` |  ---  |    `GET`    |
-|   BASIC   | 6 req/60s  | `FREE` | `JWT` |    `GET`    |
-|    DEV    | 12 req/60s |  ---   | `JWT` |    `GET`    |
+|   Tier    |  Limits   | Price  | Auth  | Permissions |
+| :-------: | :-------: | :----: | :---: | :---------: |
+| ANONYMOUS | 4 req/60s | `FREE` |  ---  |    `GET`    |
+|   BASIC   | 6 req/60s | `FREE` | `JWT` |    `GET`    |
+|    DEV    | 8 req/60s |  ---   | `JWT` |    `GET`    |
 
 [!ref Authentication](Authentication.md)
 
@@ -52,7 +52,7 @@ X-Rate-Limit-Retry-After-Seconds: 583
 
 !!!info Info
 The **HawAPI** is Open Source. \
-If, for some reason, you need more/unlimited requests, i encourage you to host you own server/api.
+If for some reason you need more/unlimited requests, i encourage you to host you own server/api.
 
 Check our [Github :icon-link-external:]({{git_home}}) page.
 !!!

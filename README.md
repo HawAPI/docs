@@ -23,7 +23,7 @@ All this information is available through a RESTful API implemented with [_Java 
 
 <a href="./guides/cors" class="title-box">CORS<span class="subtitle">Cross-Origin Request</span></a>
 
-<a href="./guides/javadoc" class="title-box">Javadoc<span class="subtitle">Generated Docs</span></a>
+<a href="./javadoc/apidocs/" class="title-box">Javadoc<span class="subtitle">Generated Docs</span></a>
 
 <a href="./faq" class="title-box">FAQ<span class="subtitle">Common questions</span></a>
 :::

@@ -22,12 +22,12 @@ fetch("{{url}}/{{api_version}}/actors")
 
 Only `GET` method is allowed for all tiers (with [limitations](/Guides/Rate-Limiting.md)).
 
-|  Method  |  Tier   | Auth  |
-| :------: | :-----: | :---: |
-|  `GET`   |  `ALL`  |  ---  |
-|  `POST`  | `ADMIN` | `JWT` |
-| `PATCH`  | `ADMIN` | `JWT` |
-| `DELETE` | `ADMIN` | `JWT` |
+|  Method  |        Tier         | Auth  |
+| :------: | :-----------------: | :---: |
+|  `GET`   |        `ALL`        |  ---  |
+|  `POST`  | `MAINTAINER, ADMIN` | `JWT` |
+| `PATCH`  | `MAINTAINER, ADMIN` | `JWT` |
+| `DELETE` | `MAINTAINER, ADMIN` | `JWT` |
 
 ## Allowed Headers
 
