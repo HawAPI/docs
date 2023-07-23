@@ -1,107 +1,73 @@
----
-icon: home
----
+# HawAPI - Docs
 
-# Introduction
+Docs for the [HawAPI](https://github.com/HawAPI/HawAPI) project.
 
-The **HawAPI** is a Free and <a href="{{git_home}}/" target="_blank">Open Source :icon-link-external:</a> API for <a href="https://www.netflix.com/title/80057281" target="_blank">Stranger Things :icon-link-external:</a> show.
+## Topics
 
-All this information is available through a RESTful API implemented with [_Java (Spring Boot) + PostgreSQL_](/About.md#tech-stack) and served via **JSON** and allows developers to create **desktop**, **web** and **mobile** applications using this data very easy.
+- [Prerequisites](#prerequisites)
+- [Dependencies](#dependencies)
+- [Running](#running)
+- [Contact](#contact)
+- [License](#license)
 
-## Quickstart
+## Prerequisites
 
-:::tiles
-<a href="./guides/i18n" class="title-box">I18N<span class="subtitle">Internationalization Support</span></a>
+- Node
+  - Npm or Yarn for **run the script**
 
-<a href="./guides/filters" class="title-box">Filters<span class="subtitle">Endpoint Filters</span></a>
+## Dependencies
 
-<a href="./guides/rate-limiting" class="title-box">Rate Limiting<span class="subtitle">API Limits & Tiers</span></a>
+- [retype](https://www.npmjs.com/package/retypeapp)
 
-<a href="./guides/authentication" class="title-box">Authentication<span class="subtitle">API Authentication</span></a>
+## Setup
 
-<a href="./guides/caching" class="title-box">Caching<span class="subtitle">Cache & Validation</span></a>
+Step by step of how to run the application.
 
-<a href="./guides/cors" class="title-box">CORS<span class="subtitle">Cross-Origin Request</span></a>
+> See all [Prerequisites](#prerequisites)
 
-<a href="./javadoc/apidocs/" class="title-box">Javadoc<span class="subtitle">Generated Docs</span></a>
+### Clone
 
-<a href="./faq" class="title-box">FAQ<span class="subtitle">Common questions</span></a>
-:::
+> **Note** \
+> Alternatively, you could [download all files (Zip)](https://github.com/HawAPI/docs/archive/refs/heads/main.zip)
 
-## About
+- SSH
 
-:::tiles
-<a href="./about#fair-use-policy" class="title-box">Maintainers<span class="subtitle">Project Maintainers</span></a>
+```
+git clone git@github.com:HawAPI/docs.git
+```
 
-<a href="./about#fair-use-policy" class="title-box">Fair Use Policy<span class="subtitle">Controlling usage</span></a>
+- HTTPS
 
-<a href="./about#copyright" class="title-box">Copyright<span class="subtitle">Data and images are used</span></a>
+```
+git clone https://github.com/HawAPI/docs.git
+```
 
-<a href="./about#licenses" class="title-box">Licenses<span class="subtitle">All licenses of the project</span></a>
-:::
+### Running
 
-<style>
-    .tiles {
-        width: 100%;
-        text-align: center;
-        color: #1956AF;
-        display: grid;
-        grid-template-columns: repeat(4, 0.2fr);
-        justify-content: start;
-    }
+> Check [Requesting](./docs/REQUESTTING.md)
 
-    .tiles p .title-box {
-        height: 7rem;
-        width: 12rem;
-        border: 1px solid #fff;
-        margin: 0 1rem;
-        border-radius: 20px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        transition: 250ms;
-        color: #fff !important;
-        text-decoration: none !important;
-    }
+#### Dev/Test
 
-    .tiles p .title-box .subtitle {
-        font-size: 0.725em;
-    }
+Using **dev** command all outputs will be stored on memory.
 
-    .tiles p:hover .title-box {
-        border: 1px solid rgb(179 0 0/var(--tw-text-opacity));
-        color: rgb(179 0 0/var(--tw-text-opacity)) !important;
-    }
+```
+yarn dev
+```
 
-    @media (max-width: 1500px) {
-        .tiles {
-            grid-template-columns: repeat(3, 0.2fr);
-        }
-    }
+#### Production
 
-    @media (max-width: 1300px) {
-        .tiles {
-            grid-template-columns: repeat(2, 0.2fr);
-        }
-    }
+Using **build** command all outputs will be stored on a `/build/` folder.
 
-    @media (max-width: 480px) {
-        .tiles {
-            justify-content: space-evenly;
-        }
+```
+yarn build
+```
 
-        .tiles p .title-box {
-            height: 6rem;
-            width: 11rem;
-            margin: 0 0.5rem;
-        }
-    }
+## Contact
 
-    @media (max-width: 400px) {
-        .tiles p .title-box {
-            height: 6rem;
-            width: 9rem;
-        }
-    }
-</style>
+For any questions about the project: [Contact](https://github.com/HawAPI/HawAPI#contact).
+
+## License
+
+HawAPI is licensed under the [MIT License](https://github.com/HawAPI/docs/blob/main/LICENSE).
+
+> Check out all [licenses/dependencies](https://hawapi.theproject.id/docs/about/#licenses)

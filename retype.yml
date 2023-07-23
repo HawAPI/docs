@@ -1,6 +1,6 @@
 input: .
 output: ./build/
-url: https://hawapi.theproject.id
+url: https://hawapi.theproject.id/docs
 cname: false
 branding:
   title: HawAPI
