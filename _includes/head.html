@@ -30,4 +30,24 @@
         display: none;
         visibility: hidden;
     }
+
+    p::-moz-selection, a::-moz-selection { 
+        background-color: rgb(179 0 0);
+        color: white;
+    }
+
+    p::selection, a::selection {
+        background-color: rgb(179 0 0);
+        color: white;
+    }
+
+    /* Scroll */
+    ::-webkit-scrollbar {
+        width: 8px;
+        background-color: transparent;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background-color: rgb(179 0 0);
+    }
 </style>

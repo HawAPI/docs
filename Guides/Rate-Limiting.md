@@ -31,23 +31,28 @@ You have complete control over your quota by looking at the the API response hea
 ```
 HTTP/1.1 200
 X-Rate-Limit-Remaining: 11
+```
 
-...
-
-HTTP/1.1 200
-X-Rate-Limit-Remaining: 1
+```json
+{
+  "...": "..."
+}
 ```
 
 ### Rejected request
 
 ```
-HTTP/1.1 200
-X-Rate-Limit-Remaining: 1
-
-...
-
 HTTP/1.1 429
 X-Rate-Limit-Retry-After-Seconds: 583
+```
+
+```json
+{
+  "code": 429,
+  "status": "Too Many Requests",
+  "method": "GET",
+  "cause": "You have exhausted your API request quota"
+}
 ```
 
 !!!info Info

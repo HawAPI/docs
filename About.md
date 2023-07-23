@@ -23,8 +23,8 @@ See all tools and related liceses: [Third party licenses](#third-party-licenses)
 
 #### API
 
-- Java
-- <a href="https://spring.io/" target="_blank">Spring Boot :icon-link-external:</a>
+- <a href="https://aws.amazon.com/corretto/" target="_blank">Java (Amazon Corretto) :icon-link-external:</a>
+- <a href="https://spring.io/projects/spring-boot" target="_blank">Spring (Boot) :icon-link-external:</a>
 - <a href="https://www.postgresql.org/" target="_blank">PostgreSQL :icon-link-external:</a>
 
 #### Website
@@ -35,9 +35,10 @@ See all tools and related liceses: [Third party licenses](#third-party-licenses)
 
 ### Services
 
-- <a href="https://github.com/" target="_blank">Github :icon-link-external:</a> - Project source
+- <a href="https://github.com/" target="_blank">Github :icon-link-external:</a> - Project source hosting
 - <a href="https://koyeb.com/" target="_blank">Koyeb :icon-link-external:</a> - API/Website hosting
-- <a href="https://neon.tech/" target="_blank">Neon :icon-link-external:</a> - Database
+- <a href="https://neon.tech/" target="_blank">Neon :icon-link-external:</a> - Database hosting
+- <a href="https://imgcdn.dev/" target="_blank">ImgCDN :icon-link-external:</a> - Image hosting
 - <a href="https://theproject.id/" target="_blank">theproject.id :icon-link-external:</a> - Hub domain.
 
 ## Fair Use Policy
