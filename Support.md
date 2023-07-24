@@ -4,18 +4,18 @@ icon: link
 
 # Support
 
-For General/Technical support questions are best asked in the [Discussion :icon-link-external:](https://github.com/orgs/HawAPI/discussions) forum.
+For General/Technical support questions are best asked in the [Discussion :icon-link-external:](https://github.com/orgs/HawAPI/discussions){target="\_blank"} forum.
 
 Do you have a general inquiry? Please feel free to contact at [hawapi@lucasjosino.com](mailto:hawapi@lucasjosino.com).
 
 ## Project
 
-| Repository |               Links               |                   Support                   |
-| :--------- | :-------------------------------: | :-----------------------------------------: |
-| General    |               `---`               | [:icon-mark-github:][1] - [:icon-mail:][8]  |
-| Website    |   [`hawapi.theproject.id/`][5]    | [:icon-mark-github:][2] - [:icon-mail:][9]  |
-| API        | [`hawapi.theproject.id/api/`][6]  | [:icon-mark-github:][3] - [:icon-mail:][10] |
-| Docs       | [`hawapi.theproject.id/docs/`][7] | [:icon-mark-github:][4] - [:icon-mail:][11] |
+| Repository |        Links         |                   Support                   |
+| :--------- | :------------------: | :-----------------------------------------: |
+| General    |        `---`         | [:icon-mark-github:][1] - [:icon-mail:][8]  |
+| Website    |   [`{{url}}/`][5]    | [:icon-mark-github:][2] - [:icon-mail:][9]  |
+| API        | [`{{url}}/api/`][6]  | [:icon-mark-github:][3] - [:icon-mail:][10] |
+| Docs       | [`{{url}}/docs/`][7] | [:icon-mark-github:][4] - [:icon-mail:][11] |
 
 ## SDK's
 

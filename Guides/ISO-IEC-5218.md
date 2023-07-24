@@ -18,4 +18,4 @@ The four codes specified in ISO/IEC 5218 are:
 
 ## References
 
-- [Wikiwand(ISO/IEC 5218) :icon-link-external:](https://www.wikiwand.com/en/ISO/IEC_5218)
+- [Wikiwand(ISO/IEC 5218) :icon-link-external:](https://www.wikiwand.com/en/ISO/IEC_5218){target="\_blank"}

@@ -59,5 +59,5 @@ X-Rate-Limit-Retry-After-Seconds: 583
 The **HawAPI** is Open Source. \
 If for some reason you need more/unlimited requests, i encourage you to host you own server/api.
 
-Check our [Github :icon-link-external:]({{git_home}}) page.
+Check our [Github :icon-link-external:]({{git_home}}){target="\_blank"} page.
 !!!

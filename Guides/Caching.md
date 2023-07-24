@@ -39,5 +39,5 @@ The 'ETag' header with the new value is also included in the response. The brows
 
 ## References
 
-- [Mozilla/etag :icon-link-external:](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/ETag)
-- [Logicbig/etag-header :icon-link-external:](https://www.logicbig.com/quick-info/web/etag-header.html)
+- [Mozilla/etag :icon-link-external:](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/ETag){target="\_blank"}
+- [Logicbig/etag-header :icon-link-external:](https://www.logicbig.com/quick-info/web/etag-header.html){target="\_blank"}

@@ -4,7 +4,7 @@ icon: home
 
 # Introduction
 
-The **HawAPI** is a Free and <a href="{{git_home}}/" target="_blank">Open Source :icon-link-external:</a> API for <a href="https://www.netflix.com/title/80057281" target="_blank">Stranger Things :icon-link-external:</a> show.
+The **HawAPI** is a Free and [Open Source :icon-link-external:]({{git_home}}/){target="\_blank"} API for [Stranger Things :icon-link-external:](https://www.netflix.com/title/80057281){target="\_blank"}.
 
 All this information is available through a RESTful API implemented with [_Java (Spring Boot) + PostgreSQL_](/About.md#tech-stack) and served via **JSON** and allows developers to create **desktop**, **web** and **mobile** applications using this data very easy.
 

@@ -9,9 +9,9 @@ Technical support questions check [Support](./Support.md).
 
 ## Maintainers
 
-| Name     |                                   Links                                    |        Contact         |
-| :------- | :------------------------------------------------------------------------: | :--------------------: |
-| LucJosin | [Github](https://github.com/LucJosin) - [Website](https://lucasjosino.com) | hawapi@lucasjosino.com |
+| Name     |                                                                          Links                                                                           |        Contact         |
+| :------- | :------------------------------------------------------------------------------------------------------------------------------------------------------: | :--------------------: |
+| LucJosin | [Github :icon-link-external:](https://github.com/LucJosin){target="\_blank"} - [Website :icon-link-external:](https://lucasjosino.com){target="\_blank"} | hawapi@lucasjosino.com |
 
 <!-- # Contributors -->
 
@@ -23,23 +23,23 @@ See all tools and related liceses: [Third party licenses](#third-party-licenses)
 
 #### API
 
-- <a href="https://aws.amazon.com/corretto/" target="_blank">Java (Amazon Corretto) :icon-link-external:</a>
-- <a href="https://spring.io/projects/spring-boot" target="_blank">Spring (Boot) :icon-link-external:</a>
-- <a href="https://www.postgresql.org/" target="_blank">PostgreSQL :icon-link-external:</a>
+- [Java (Amazon Corretto) :icon-link-external:](https://aws.amazon.com/corretto/){target="\_blank"}
+- [Spring (Boot) :icon-link-external:](https://spring.io/projects/spring-boot){target="\_blank"}
+- [PostgreSQL :icon-link-external:](https://www.postgresql.org/){target="\_blank"}
 
 #### Website
 
-- <a href="https://astro.build/" target="_blank">Astro :icon-link-external:</a> - Home
-- <a href="https://swagger.io/" target="_blank">Swagger :icon-link-external:</a> - Try-it
-- <a href="https://retype.com/" target="_blank">Retype :icon-link-external:</a> - Docs
+- [Astro :icon-link-external:](https://astro.build/){target="\_blank"} - Home
+- [Swagger :icon-link-external:](https://swagger.io/){target="\_blank"} - Try-it
+- [Retype :icon-link-external:](https://retype.com/){target="\_blank"} - Docs
 
 ### Services
 
-- <a href="https://github.com/" target="_blank">Github :icon-link-external:</a> - Project source hosting
-- <a href="https://koyeb.com/" target="_blank">Koyeb :icon-link-external:</a> - API/Website hosting
-- <a href="https://neon.tech/" target="_blank">Neon :icon-link-external:</a> - Database hosting
-- <a href="https://imgcdn.dev/" target="_blank">ImgCDN :icon-link-external:</a> - Image hosting
-- <a href="https://theproject.id/" target="_blank">theproject.id :icon-link-external:</a> - Hub domain.
+- [Github :icon-link-external:](https://github.com/){target="\_blank"} - Project source hosting
+- [Koyeb :icon-link-external:](https://koyeb.com/){target="\_blank"} - API/Website hosting
+- [Neon :icon-link-external:](https://neon.tech/){target="\_blank"} - Database hosting
+- [ImgCDN :icon-link-external:](https://imgcdn.dev/){target="\_blank"} - Image hosting
+- [theproject.id :icon-link-external:](https://theproject.id/){target="\_blank"} - Hub domain.
 
 ## Fair Use Policy
 
@@ -49,7 +49,7 @@ See [Controlling usage](/guides/rate-limiting/#controlling-usage)
 
 ## Copyright
 
-The data and images are used without claim of ownership and belong to their respective owners. I do not own the rights to any material provided in this API. This API is [Open Source :icon-link-external:]({{git_home}}) and uses a [MIT License](#licenses).
+The data and images are used without claim of ownership and belong to their respective owners. I do not own the rights to any material provided in this API. This API is [Open Source :icon-link-external:]({{git_home}}){target="\_blank"} and uses a [MIT License](#licenses).
 
 ## Licenses
 
@@ -57,7 +57,7 @@ All licenses of the project, including third party **packages/libraries/dependen
 
 ### Project license
 
-> **HawAPI** is licensed under the [MIT License :icon-link-external:]({{git}}/LICENSE).
+> **HawAPI** is licensed under the [MIT License :icon-link-external:]({{git}}/blob/main/LICENSE){target="\_blank"}.
 
 ```
 MIT License
@@ -89,46 +89,46 @@ SOFTWARE.
 
 ==- spring-boot (And all related spring-projects)
 
-[Github :icon-link-external:](https://github.com/spring-projects) \
-[Apache License 2.0 :icon-link-external:](https://github.com/spring-projects/spring-boot/blob/main/LICENSE.txt)
+[Github :icon-link-external:](https://github.com/spring-projects){target="\_blank"} \
+[Apache License 2.0 :icon-link-external:](https://github.com/spring-projects/spring-boot/blob/main/LICENSE.txt){target="\_blank"}
 
 ==- bucket4j-spring-boot-starter
 
-[Github :icon-link-external:](https://github.com/MarcGiffing/bucket4j-spring-boot-starter) \
-[Apache License 2.0 :icon-link-external:](https://github.com/MarcGiffing/bucket4j-spring-boot-starter/blob/master/LICENSE)
+[Github :icon-link-external:](https://github.com/MarcGiffing/bucket4j-spring-boot-starter){target="\_blank"} \
+[Apache License 2.0 :icon-link-external:](https://github.com/MarcGiffing/bucket4j-spring-boot-starter/blob/master/LICENSE){target="\_blank"}
 
 ==- caffeine
 
-[Github :icon-link-external:](https://github.com/ben-manes/caffeine/) \
-[Apache License 2.0 :icon-link-external:](https://github.com/ben-manes/caffeine/blob/master/LICENSE)
+[Github :icon-link-external:](https://github.com/ben-manes/caffeine/){target="\_blank"} \
+[Apache License 2.0 :icon-link-external:](https://github.com/ben-manes/caffeine/blob/master/LICENSE){target="\_blank"}
 
 ==- springdoc-openapi-ui
 
-[Github :icon-link-external:](https://github.com/springdoc/springdoc-openapi) \
-[Apache License 2.0 :icon-link-external:](https://github.com/springdoc/springdoc-openapi/blob/master/LICENSE)
+[Github :icon-link-external:](https://github.com/springdoc/springdoc-openapi){target="\_blank"} \
+[Apache License 2.0 :icon-link-external:](https://github.com/springdoc/springdoc-openapi/blob/master/LICENSE){target="\_blank"}
 
 ==- modelmapper
 
-[Github :icon-link-external:](https://github.com/modelmapper/modelmapper) \
-[Apache License 2.0 :icon-link-external:](https://github.com/modelmapper/modelmapper/blob/master/LICENSE.txt)
+[Github :icon-link-external:](https://github.com/modelmapper/modelmapper){target="\_blank"} \
+[Apache License 2.0 :icon-link-external:](https://github.com/modelmapper/modelmapper/blob/master/LICENSE.txt){target="\_blank"}
 
 ==- java-json-tools
 
-[Github :icon-link-external:](https://github.com/java-json-tools) \
-[GNU LESSER GENERAL PUBLIC LICENSE 3.0 :icon-link-external:](https://www.gnu.org/licenses/lgpl-3.0.txt) \
-[Apache License 2.0 :icon-link-external:](https://www.apache.org/licenses/LICENSE-2.0.txt)
+[Github :icon-link-external:](https://github.com/java-json-tools){target="\_blank"} \
+[GNU LESSER GENERAL PUBLIC LICENSE 3.0 :icon-link-external:](https://www.gnu.org/licenses/lgpl-3.0.txt){target="\_blank"} \
+[Apache License 2.0 :icon-link-external:](https://www.apache.org/licenses/LICENSE-2.0.txt){target="\_blank"}
 
-Ref: [java-json-tools/json-tools :icon-link-external:](https://github.com/java-json-tools/json-patch/blob/master/LICENSE)
+Ref: [java-json-tools/json-tools :icon-link-external:](https://github.com/java-json-tools/json-patch/blob/master/LICENSE){target="\_blank"}
 
 ==- hibernate-types
 
-[Github :icon-link-external:](https://github.com/vladmihalcea/hibernate-types) \
-[Apache License 2.0 :icon-link-external:](https://github.com/vladmihalcea/hibernate-types/blob/master/LICENSE)
+[Github :icon-link-external:](https://github.com/vladmihalcea/hibernate-types){target="\_blank"} \
+[Apache License 2.0 :icon-link-external:](https://github.com/vladmihalcea/hibernate-types/blob/master/LICENSE){target="\_blank"}
 
 ==- postgresql
 
-[Github :icon-link-external:](https://github.com/postgres/) \
-[PostgreSQL License :icon-link-external:](https://www.postgresql.org/about/licence/)
+[Github :icon-link-external:](https://github.com/postgres/){target="\_blank"} \
+[PostgreSQL License :icon-link-external:](https://www.postgresql.org/about/licence/){target="\_blank"}
 
 ==-
 
@@ -136,17 +136,17 @@ Ref: [java-json-tools/json-tools :icon-link-external:](https://github.com/java-j
 
 ==- retype (docs)
 
-[Github :icon-link-external:](https://github.com/retypeapp/retype) \
-[Retype Software License Agreement :icon-link-external:](https://github.com/retypeapp/retype/blob/main/LICENSE.md)
+[Github :icon-link-external:](https://github.com/retypeapp/retype){target="\_blank"} \
+[Retype Software License Agreement :icon-link-external:](https://github.com/retypeapp/retype/blob/main/LICENSE.md){target="\_blank"}
 
 ==- astro.build (And all related packages)
 
-[Github :icon-link-external:](https://github.com/withastro/) | [Github (Community) :icon-link-external:](https://github.com/astro-community) \
-[MIT License :icon-link-external:](https://github.com/withastro/astro/blob/main/LICENSE)
+[Github :icon-link-external:](https://github.com/withastro/) | [Github (Community) :icon-link-external:](https://github.com/astro-community){target="\_blank"} \
+[MIT License :icon-link-external:](https://github.com/withastro/astro/blob/main/LICENSE){target="\_blank"}
 
 ==- astro-icon
 
-[Github :icon-link-external:](https://github.com/natemoo-re/astro-icon) \
-[MIT License :icon-link-external:](https://github.com/natemoo-re/astro-icon/blob/main/LICENSE)
+[Github :icon-link-external:](https://github.com/natemoo-re/astro-icon){target="\_blank"} \
+[MIT License :icon-link-external:](https://github.com/natemoo-re/astro-icon/blob/main/LICENSE){target="\_blank"}
 
 ==-
