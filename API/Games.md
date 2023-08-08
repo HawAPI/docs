@@ -1,6 +1,6 @@
 ---
 label: Games
-icon: person
+icon: rocket
 ---
 
 # Games

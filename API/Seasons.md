@@ -1,6 +1,6 @@
 ---
 label: Seasons
-icon: grabber
+icon: file-directory
 ---
 
 # Seasons
@@ -16,12 +16,6 @@ Fetches a list of seasons.
 | [!badge variant="primary" text="GET"] | /api/{{api_version}}/seasons/\{uuid\}/translations              | **Retrieves** all translations. |
 | [!badge variant="primary" text="GET"] | /api/{{api_version}}/seasons/\{uuid\}/translations/\{language\} | **Retrieves** one translation.  |
 | [!badge variant="primary" text="GET"] | /api/{{api_version}}/seasons/random                             | **Retrieves** one random.       |
-
-## Example
-
-+++ JavaScript
-TODO: Add sample code
-+++
 
 ## Schema
 
