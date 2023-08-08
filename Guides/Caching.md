@@ -6,7 +6,12 @@ By default we cache the results of each request you make for **1 hour**. If you 
 
 The cache is shared across all users. If two users run a query with the same requests—even with different auth tokens—the cached results are still returned.
 
-- **Example**: If you send a query such as `/api/v1/episodes?episode_num=1` and a second query string with `/api/v1/episodes?episode_num=2`, the API will pick up that these are different and will _create a cache for each one_.
+- **Example¹**: If you request such as `/api/v1/episodes?duration=>3000000` and a second request with `/api/v1/episodes?duration=>3000000`, the API will define as **equals** and will _return the cached data_.
+- **Example²**: If you request such as `/api/v1/episodes?episode_num=1` and a second request with `/api/v1/episodes?episode_num=2`, the API will define as **different** and will _create a cache for each one_.
+
+!!!Note
+The cache will be invalidated after **1 hour of inactivity**
+!!!
 
 You can identify if a result has been cached by checking the `ETag` header on the API response.
 
