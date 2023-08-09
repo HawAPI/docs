@@ -50,11 +50,14 @@ It's possible to use `sort` and `order` too. \
 See [Filters](../Guides/Filters.md)
 !!!
 
-| Field          | Example                    |
-| :------------- | :------------------------- |
-| title          | `?title=Lorem`             |
-| description    | `?description=Lorem`       |
-| duration_total | `?duration_total=254789`   |
-| genres         | `?genres=genre1,genre2`    |
-| season_num     | `?season_num=1`            |
-| release_date   | `?release_date=2015-01-01` |
+| Field          | Example                    | Modification |
+| :------------- | :------------------------- | :----------: |
+| title          | `?title=Lorem`             |    EQUALS    |
+| description    | `?description=Lorem`       |    EQUALS    |
+| duration_total | `?duration_total=254789`   |    EQUALS    |
+| genres         | `?genres=genre1,genre2`    |    EQUALS    |
+| season_num     | `?season_num=1`            |    EQUALS    |
+| release_date   | `?release_date=2015-01-01` |    EQUALS    |
+| next_episode   | `?next_episode=*<uuid>`    |     LIKE     |
+| prev_epsisode  | `?prev_epsisode=*<uuid>`   |     LIKE     |
+| budget         | `?budget=48000000`         |    EQUALS    |

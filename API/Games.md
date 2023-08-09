@@ -25,9 +25,9 @@ Returns a json with the following stucture:
 | :------------------------------------------------------------- | :------------- |
 | uuid                                                           | UUID           |
 | href                                                           | String         |
-| stores                                                         | List\<String\> |
-| modes                                                          | List\<String\> |
-| tags                                                           | List\<String\> |
+| stores [[!badge variant="info" text="Filter"]](#filters)       | List\<String\> |
+| modes [[!badge variant="info" text="Filter"]](#filters)        | List\<String\> |
+| tags [[!badge variant="info" text="Filter"]](#filters)         | List\<String\> |
 | name [[!badge variant="info" text="Filter"]](#filters)         | String         |
 | genres [[!badge variant="info" text="Filter"]](#filters)       | List\<String\> |
 | platforms [[!badge variant="info" text="Filter"]](#filters)    | List\<String\> |
@@ -35,9 +35,9 @@ Returns a json with the following stucture:
 | developers [[!badge variant="info" text="Filter"]](#filters)   | List\<String\> |
 | release_date [[!badge variant="info" text="Filter"]](#filters) | Date           |
 | website                                                        | String         |
-| playtime                                                       | Integer        |
+| playtime [[!badge variant="info" text="Filter"]](#filters)     | Integer        |
 | trailer                                                        | String         |
-| age_rating                                                     | String         |
+| age_rating [[!badge variant="info" text="Filter"]](#filters)   | String         |
 | thumbnail                                                      | String         |
 | images                                                         | List\<String\> |
 | sources                                                        | List\<String\> |
@@ -51,11 +51,16 @@ It's possible to use `sort` and `order` too. \
 See [Filters](../Guides/Filters.md)
 !!!
 
-| Field        | Example                             |
-| :----------- | :---------------------------------- |
-| name         | `?name=Lorem`                       |
-| genres       | `?genres=genre1,genre2`             |
-| platforms    | `?platforms=platform1,platform2`    |
-| publishers   | `?publishers=publisher1,publisher2` |
-| developers   | `?developers=developer1,developer2` |
-| release_date | `?release_date=2001-01-01`          |
+| Field        | Example                              | Modification |
+| :----------- | :----------------------------------- | :----------: |
+| name         | `?name=Lorem`                        |    EQUALS    |
+| genres       | `?genres=:genre1,genre2`             |      IN      |
+| stores       | `?stores=:store1,store2`             |      IN      |
+| modes        | `?modes=:mode1,mode2`                |      IN      |
+| tags         | `?tags=:tag1,tag2`                   |      IN      |
+| platforms    | `?platforms=:platform1,platform2`    |      IN      |
+| publishers   | `?publishers=:publisher1,publisher2` |      IN      |
+| developers   | `?developers=:developer1,developer2` |      IN      |
+| release_date | `?release_date=2001-01-01`           |    EQUALS    |
+| playtime     | `?playtime=>18000000`                | GREATER_THAN |
+| age_rating   | `?age_rating=16+`                    |    EQUALS    |

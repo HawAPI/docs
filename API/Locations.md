@@ -40,7 +40,7 @@ It's possible to use `sort` and `order` too. \
 See [Filters](../Guides/Filters.md)
 !!!
 
-| Field       | Example              |
-| :---------- | :------------------- |
-| name        | `?name=Lorem`        |
-| description | `?description=Lorem` |
+| Field       | Example              | Modification |
+| :---------- | :------------------- | :----------: |
+| name        | `?name=Lorem`        |    EQUALS    |
+| description | `?description=Lorem` |    EQUALS    |

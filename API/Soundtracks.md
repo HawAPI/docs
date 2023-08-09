@@ -41,10 +41,10 @@ It's possible to use `sort` and `order` too. \
 See [Filters](../Guides/Filters.md)
 !!!
 
-| Field        | Example                    |
-| :----------- | :------------------------- |
-| name         | `?name=Lorem`              |
-| duration     | `?duration=245712`         |
-| artist       | `?artist=Ipsum`            |
-| album        | `?album=Lorem Ipsum`       |
-| release_date | `?release_date=2018-01-01` |
+| Field        | Example                    | Modification |
+| :----------- | :------------------------- | :----------: |
+| name         | `?name=Lorem`              |    EQUALS    |
+| duration     | `?duration=245712`         |    EQUALS    |
+| artist       | `?artist=Ipsum`            |    EQUALS    |
+| album        | `?album=Lorem Ipsum`       |    EQUALS    |
+| release_date | `?release_date=2018-01-01` |    EQUALS    |

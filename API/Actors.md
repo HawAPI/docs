@@ -36,7 +36,7 @@ Returns a json with the following stucture:
 | nationality [[!badge variant="info" text="Filter"]](#filters) | String                                   |
 | seasons                                                       | List\<String\>                           |
 | awards                                                        | List\<String\>                           |
-| character                                                     | String                                   |
+| character [[!badge variant="info" text="Filter"]](#filters)   | String                                   |
 | thumbnail                                                     | String                                   |
 | images                                                        | List\<String\>                           |
 | sources                                                       | List\<String\>                           |
@@ -45,12 +45,13 @@ Returns a json with the following stucture:
 
 ## Filters
 
-| Field       | Example                  |
-| :---------- | :----------------------- |
-| first_name  | `?first_name=Lorem`      |
-| last_name   | `?last_name=Ipsum`       |
-| nicknames   | `?nicknames=ipsum,lorem` |
-| birth_date  | `?birth_date=1888-01-01` |
-| death_date  | `?death_date=2000-12-01` |
-| gender      | `?gender=0`              |
-| nationality | `?nationality=American`  |
+| Field       | Example                  | Modification |
+| :---------- | :----------------------- | :----------: |
+| first_name  | `?first_name=Lorem`      |    EQUALS    |
+| last_name   | `?last_name=Ipsum`       |    EQUALS    |
+| nicknames   | `?nicknames=ipsum,lorem` |    EQUALS    |
+| birth_date  | `?birth_date=1888-01-01` |    EQUALS    |
+| death_date  | `?death_date=2000-12-01` |    EQUALS    |
+| gender      | `?gender=0`              |    EQUALS    |
+| nationality | `?nationality=American`  |    EQUALS    |
+| character   | `?character=*<uuid>`     |     LIKE     |

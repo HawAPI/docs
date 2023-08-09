@@ -52,7 +52,7 @@ The request can be modified/flexible using the modificaton symbols.
 | IN                   |      \*      |   :    |
 | GREATER_OR_EQUALS_TO | Number, Date |   >=   |
 | LESS_OR_EQUALS_TO    | Number, Date |   <=   |
-| LESS_OR_EQUALS_TO    | Number, Date |   >    |
+| GREATER_THAN         | Number, Date |   >    |
 | LESS_THAN            | Number, Date |   <    |
 | NOT_EQUALS           |      \*      |   !    |
 | EQUALS               |      \*      |        |
