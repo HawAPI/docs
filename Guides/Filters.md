@@ -18,9 +18,7 @@ All filters supported by all endpoints
 
 Usage Example:
 
-```
-curl {{url}}/api/{{api_version}}/actors?language=en-US&size=10&page=1&sort=first_name,DESC
-```
+> [!badge variant="primary" text="GET"] /api/{{api_version}}/actors?language=en-US&size=10&page=1&sort=first_name,DESC
 
 !!!info Info
 The `size` option, by default, is set to 10 and **LIMITED** to 20 (Per page).
@@ -57,10 +55,8 @@ The request can be modified/flexible using the modificaton symbols.
 | NOT_EQUALS           |      \*      |   !    |
 | EQUALS               |      \*      |        |
 
-Usage Example:
+### Usage Example:
 
-> All characters with **last name `like` Wheeler**, **gender `equals to` 1** and **birth date `greater or equals to` 1967-01-01**
+All characters with **last name `like` Wheeler**, **gender `equals to` 1** and **birth date `greater or equals to` 1967-01-01**
 
-```
-curl {{url}}/api/{{api_version}}/characters?last_name=*Wheeler&gender=1&birth_date=>=1967-01-01
-```
+> [!badge variant="primary" text="GET"] /api/{{api_version}}/characters?**last_name=\*Wheeler&gender=1&birth_date=>=1967-01-01**

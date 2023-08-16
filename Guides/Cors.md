@@ -13,7 +13,7 @@ You don’t need to do anything special to use **CORS** with JavaScript in a mod
 Fetching all [actors](/API/Actors.md)
 
 ```js
-fetch("{{url}}/{{api_version}}/actors")
+fetch("{{url}}/api/{{api_version}}/actors")
   .then((response) => response.json())
   .then((data) => console.log(data));
 ```

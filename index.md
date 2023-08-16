@@ -74,6 +74,18 @@ All this information is available through a RESTful API implemented with [_Java 
         color: rgb(179 0 0/var(--tw-text-opacity)) !important;
     }
 
+    @media (prefers-color-scheme: light) {
+        .tiles p .title-box {
+            border: 1px solid rgb(179 0 0);
+            color: rgb(179 0 0) !important;
+        }
+
+        .tiles p:hover .title-box {
+            border: 1px solid rgb(128 128 128/var(--tw-text-opacity));
+            color: rgb(128 128 128/var(--tw-text-opacity)) !important;
+        }
+    }
+
     @media (max-width: 1500px) {
         .tiles {
             grid-template-columns: repeat(3, 0.2fr);

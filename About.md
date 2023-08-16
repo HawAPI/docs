@@ -9,9 +9,9 @@ Technical support questions check [Support](./Support.md).
 
 ## Maintainers
 
-| Name     |                                                                          Links                                                                           |        Contact         |
-| :------- | :------------------------------------------------------------------------------------------------------------------------------------------------------: | :--------------------: |
-| LucJosin | [Github :icon-link-external:](https://github.com/LucJosin){target="\_blank"} - [Website :icon-link-external:](https://lucasjosino.com){target="\_blank"} | hawapi@lucasjosino.com |
+| Name     |                                                             Links                                                              |        Contact         |
+| :------- | :----------------------------------------------------------------------------------------------------------------------------: | :--------------------: |
+| LucJosin | [:icon-mark-github:](https://github.com/LucJosin){target="\_blank"} - [:icon-link:](https://lucasjosino.com){target="\_blank"} | hawapi@lucasjosino.com |
 
 <!-- # Contributors -->
 
@@ -112,6 +112,11 @@ SOFTWARE.
 [Github :icon-link-external:](https://github.com/modelmapper/modelmapper){target="\_blank"} \
 [Apache License 2.0 :icon-link-external:](https://github.com/modelmapper/modelmapper/blob/master/LICENSE.txt){target="\_blank"}
 
+==- guava
+
+[Github :icon-link-external:](https://github.com/google/guava/){target="\_blank"} \
+[Apache License 2.0 :icon-link-external:](https://github.com/google/guava/blob/master/LICENSE){target="\_blank"}
+
 ==- java-json-tools
 
 [Github :icon-link-external:](https://github.com/java-json-tools){target="\_blank"} \
@@ -129,6 +134,20 @@ Ref: [java-json-tools/json-tools :icon-link-external:](https://github.com/java-j
 
 [Github :icon-link-external:](https://github.com/postgres/){target="\_blank"} \
 [PostgreSQL License :icon-link-external:](https://www.postgresql.org/about/licence/){target="\_blank"}
+
+==-
+
+> Tests
+
+==- testcontainers
+
+[Github :icon-link-external:](https://github.com/testcontainers/testcontainers-java){target="\_blank"} \
+[MIT License :icon-link-external:](https://github.com/testcontainers/testcontainers-java/blob/main/LICENSE){target="\_blank"}
+
+==- junit
+
+[Github :icon-link-external:](https://github.com/junit-team/junit5){target="\_blank"} \
+[Eclipse Public License 2.0 :icon-link-external:](https://github.com/junit-team/junit5/blob/main/LICENSE.md){target="\_blank"}
 
 ==-
 
