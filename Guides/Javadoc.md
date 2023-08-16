@@ -1,4 +1,4 @@
 ---
 icon: repo
-redirect: /javadoc/apidocs/
+redirect: /docs/javadoc/apidocs/
 ---
