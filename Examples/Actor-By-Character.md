@@ -7,16 +7,12 @@ icon: square
 
 How to request actor from specific character
 
-## Terminal
+## HTTP
 
 ### Equals
 
-```sh Terminal
-curl {{url}}/api/{{api_version}}/actors?character=/api/v1/characters/ef69d278-76be-478e-a087-c81071cb83c3
-```
+> [!badge variant="primary" text="GET"] /api/{{api_version}}/actors?character=/api/v1/characters/ef69d278-76be-478e-a087-c81071cb83c3
 
 ### Like
 
-```sh Terminal
-curl {{url}}/api/{{api_version}}/actors?character=*ef69d278-76be-478e-a087-c81071cb83c3
-```
+> [!badge variant="primary" text="GET"] /api/{{api_version}}/actors?character=\*ef69d278-76be-478e-a087-c81071cb83c3
