@@ -12,11 +12,11 @@ How to request actor from specific character
 ### Equals
 
 ```sh Terminal
-curl {{url}}/api/{{api_version}}/actors?character=/api/v1/characters/50fa9f0c-65bc-451f-90a2-8b864a21bef0
+curl {{url}}/api/{{api_version}}/actors?character=/api/v1/characters/ef69d278-76be-478e-a087-c81071cb83c3
 ```
 
 ### Like
 
 ```sh Terminal
-curl {{url}}/api/{{api_version}}/actors?character=*50fa9f0c-65bc-451f-90a2-8b864a21bef0
+curl {{url}}/api/{{api_version}}/actors?character=*ef69d278-76be-478e-a087-c81071cb83c3
 ```

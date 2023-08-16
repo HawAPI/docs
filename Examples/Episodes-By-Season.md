@@ -12,11 +12,11 @@ How to request all episodes from specific season
 ### Equals
 
 ```sh Terminal
-curl {{url}}/api/{{api_version}}/episodes?seasons=/api/v1/seasons/50fa9f0c-65bc-451f-90a2-8b864a21bef0
+curl {{url}}/api/{{api_version}}/episodes?season=/api/v1/seasons/3b980ad3-aef8-4663-a7a9-64cb4979500a
 ```
 
 ### Like
 
 ```sh Terminal
-curl {{url}}/api/{{api_version}}/episodes?seasons=*50fa9f0c-65bc-451f-90a2-8b864a21bef0
+curl {{url}}/api/{{api_version}}/episodes?season=*3b980ad3-aef8-4663-a7a9-64cb4979500a
 ```
