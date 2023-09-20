@@ -42,19 +42,18 @@ All this information is available through a RESTful API implemented with [_Java 
 
 <style>
     .tiles {
-        width: 100%;
+        width: 80%;
         text-align: center;
         color: #1956AF;
         display: grid;
-        grid-template-columns: repeat(4, 0.2fr);
-        justify-content: start;
+        grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+        gap: 1rem;
     }
 
     .tiles p .title-box {
         height: 7rem;
         width: 12rem;
         border: 1px solid #fff;
-        margin: 0 1rem;
         border-radius: 20px;
         display: flex;
         flex-direction: column;
@@ -83,37 +82,6 @@ All this information is available through a RESTful API implemented with [_Java 
         .tiles p:hover .title-box {
             border: 1px solid rgb(128 128 128/var(--tw-text-opacity));
             color: rgb(128 128 128/var(--tw-text-opacity)) !important;
-        }
-    }
-
-    @media (max-width: 1500px) {
-        .tiles {
-            grid-template-columns: repeat(3, 0.2fr);
-        }
-    }
-
-    @media (max-width: 1300px) {
-        .tiles {
-            grid-template-columns: repeat(2, 0.2fr);
-        }
-    }
-
-    @media (max-width: 480px) {
-        .tiles {
-            justify-content: space-evenly;
-        }
-
-        .tiles p .title-box {
-            height: 6rem;
-            width: 11rem;
-            margin: 0 0.5rem;
-        }
-    }
-
-    @media (max-width: 400px) {
-        .tiles p .title-box {
-            height: 6rem;
-            width: 9rem;
         }
     }
 </style>
