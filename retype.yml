@@ -10,7 +10,7 @@ branding:
       background: "#0f0f0f"
       text: "#ffffff"
 meta:
-  title: " | HawAPI"
+  title: " | HawAPI - A Stranger Things API - Docs"
 links:
   - text: Home
     link: https://hawapi.theproject.id
@@ -28,6 +28,10 @@ links:
     link: https://github.com/HawAPI/feedback/discussions
     icon: comment-discussion
     target: blank
+  - text: Hawbrary
+    link: https://hawbrary.theproject.id/
+    icon: book
+    target: blank
 footer:
   copyright: "&copy; Copyright {{ year }}. All rights reserved."
   links:
@@ -42,7 +46,7 @@ footer:
     - text: Licenses
       link: /about/#licenses
 edit:
-  repo: "https://github.com/HawAPI/docs/"
+  repo: "https://github.com/HawAPI/website/"
   branch: main
 data:
   api_version: v1
