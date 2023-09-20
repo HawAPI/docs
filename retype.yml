@@ -46,7 +46,7 @@ footer:
     - text: Licenses
       link: /about/#licenses
 edit:
-  repo: "https://github.com/HawAPI/website/"
+  repo: "https://github.com/HawAPI/docs/"
   branch: main
 data:
   api_version: v1
