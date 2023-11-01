@@ -1,6 +1,9 @@
 {
+  "name": "@hawapi/docs",
+  "version": "1.3.0",
+  "packageManager": "yarn@4.0.1",
   "scripts": {
-    "build": "retype build && node scripts/js/update-colors.mjs",
+    "build": "retype build && node scripts/js/update-colors.mjs && node scripts/js/spring-requirements.mjs",
     "watch": "retype start",
     "dev": "retype start",
     "clean": "rm -rf ./build"

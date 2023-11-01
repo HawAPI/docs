@@ -2,8 +2,9 @@
 
 import * as fs from "fs";
 
-main();
-
+/**
+ * Replace the default retype colors with a custom colors. Following the main page color pallete.
+ */
 async function main() {
   console.log("[update-colors] Updating colors...");
 
@@ -26,3 +27,5 @@ async function main() {
 
   console.log("[update-colors] Updated colors!");
 }
+
+main();
