@@ -13,7 +13,7 @@ Docs for the [HawAPI](https://github.com/HawAPI/HawAPI) project.
 ## Prerequisites
 
 - Node
-  - Npm or Yarn for **run the script**
+  - Yarn for **run the scripts**
 
 ## Dependencies
 
