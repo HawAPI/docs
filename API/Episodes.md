@@ -54,3 +54,26 @@ See [Filters](../Guides/Filters.md)
 | next_episode  | `?next_episode=*<uuid>`  |     LIKE     |
 | prev_epsisode | `?prev_epsisode=*<uuid>` |     LIKE     |
 | season        | `?season=*<uuid>`        |     LIKE     |
+
+## Example
+
+> [!badge variant="primary" text="GET"] /api/{{api_version}}/episodes/random
+
+```json
+{
+  "uuid": "a07af8a9-0873-4f6c-9cfa-8eafc8705fb2",
+  "href": "/api/v1/episodes/a07af8a9-0873-4f6c-9cfa-8eafc8705fb2",
+  "sources": ["https://www.netflix.com/title/80057281"],
+  "thumbnail": "https://s6.imgcdn.dev/xWXri.jpg",
+  "title": "The Bite",
+  "description": "With time running out -- and an assassin close behind -- Hopper's crew races back to Hawkins, where El and the kids are preparing for war.",
+  "language": "en-US",
+  "duration": 3360000,
+  "season": "/api/v1/seasons/b956e444-8489-4bf9-9dd0-fb6b7683638a",
+  "created_at": "2023-07-24T12:33:55.767",
+  "updated_at": "2023-07-24T12:33:55.767",
+  "episode_num": 7,
+  "next_episode": "/api/v1/episodes/a4ed46c8-47b7-40fc-b1d9-cacc629e93da",
+  "prev_episode": "/api/v1/episodes/a07af8a9-0873-4f6c-9cfa-8eafc8705fb2"
+}
+```
