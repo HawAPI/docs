@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="turbo-root" content="/docs">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.748486434981">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.752178590422">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.5.0">
@@ -31,11 +31,12 @@
 
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="../../resources/css/retype.css?v=3.5.0.748486434981" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=3.5.0.752178590422" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=3.5.0.748486434981" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=3.5.0.752178590422" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../resources/js/retype.js?v=3.5.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.5.0.748486434981" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.5.0.752178590422" data-turbo-eval="false" defer></script>
+    <script id="prism-js" data-cfasync="false" src="../../resources/js/prism.js?v=3.5.0.752178590422" defer></script>
 
     <style>
         .background-holder {
@@ -519,6 +520,38 @@ See <a href="../../guides/filters/">Filters</a></p>
 </tbody>
 </table>
 </div>
+<doc-anchor-target id="example">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#example">#</doc-anchor-trigger>
+        <span>Example</span>
+    </h2>
+</doc-anchor-target>
+<blockquote>
+<p><span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-blue-600 bg-blue-100 h-6 px-2 text-xs rounded-md">
+    <span>GET</span>
+</span> /api/v1/characters/random</p>
+</blockquote>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-json"><code v-pre class="language-json">{
+  &quot;uuid&quot;: &quot;ef69d278-76be-478e-a087-c81071cb83c3&quot;,
+  &quot;href&quot;: &quot;/api/v1/characters/ef69d278-76be-478e-a087-c81071cb83c3&quot;,
+  &quot;sources&quot;: [&quot;https://strangerthings.fandom.com/wiki/Mike_Wheeler&quot;],
+  &quot;thumbnail&quot;: &quot;https://s6.imgcdn.dev/xm7Sq.jpg&quot;,
+  &quot;gender&quot;: 1,
+  &quot;actor&quot;: &quot;/api/v1/actorss/52b8e340-aa3b-4899-af56-4bd727512cbd&quot;,
+  &quot;images&quot;: [
+    &quot;https://static.wikia.nocookie.net/strangerthings8338/images/1/19/Mike_S02E09.jpg&quot;,
+    &quot;https://upload.wikimedia.org/wikipedia/pt/e/e7/Mike-Wheeler-S3.jpg&quot;,
+    &quot;https://rollingstone.uol.com.br/media/uploads/2023/02/stranger-things-mike-morre-5-temporada-foto-reproducao-netflix.jpg&quot;,
+    &quot;https://hips.hearstapps.com/hmg-prod/images/stranger-things-finn-wolfhard-1654185204.jpg&quot;
+  ],
+  &quot;created_at&quot;: &quot;2023-08-11T19:27:25.287548&quot;,
+  &quot;updated_at&quot;: &quot;2023-08-11T19:27:25.287548&quot;,
+  &quot;first_name&quot;: &quot;Mike&quot;,
+  &quot;last_name&quot;: &quot;Wheeler&quot;,
+  &quot;birth_date&quot;: &quot;1971-04-07&quot;
+}</code></pre>
+</doc-codeblock></div>
 
                                 
                                 <!-- Required only on API pages -->
@@ -606,6 +639,6 @@ See <a href="../../guides/filters/">Filters</a></p>
 
     <div id="docs-overlay-target"></div>
 
-    <script data-cfasync="false">window.__DOCS__ = { "title": "Characters", level: 2, icon: "file", hasPrism: false, hasMermaid: false, hasMath: false, tocDepth: 23 }</script>
+    <script data-cfasync="false">window.__DOCS__ = { "title": "Characters", level: 2, icon: "file", hasPrism: true, hasMermaid: false, hasMath: false, tocDepth: 23 }</script>
 </body>
 </html>

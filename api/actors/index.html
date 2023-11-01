@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="turbo-root" content="/docs">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.748486434981">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.752178590422">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.5.0">
@@ -31,11 +31,12 @@
 
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="../../resources/css/retype.css?v=3.5.0.748486434981" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=3.5.0.752178590422" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=3.5.0.748486434981" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=3.5.0.752178590422" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../resources/js/retype.js?v=3.5.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.5.0.748486434981" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.5.0.752178590422" data-turbo-eval="false" defer></script>
+    <script id="prism-js" data-cfasync="false" src="../../resources/js/prism.js?v=3.5.0.752178590422" defer></script>
 
     <style>
         .background-holder {
@@ -534,6 +535,60 @@
 </tbody>
 </table>
 </div>
+<doc-anchor-target id="example">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#example">#</doc-anchor-trigger>
+        <span>Example</span>
+    </h2>
+</doc-anchor-target>
+<blockquote>
+<p><span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-blue-600 bg-blue-100 h-6 px-2 text-xs rounded-md">
+    <span>GET</span>
+</span> /api/v1/actors/random</p>
+</blockquote>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-json"><code v-pre class="language-json">{
+  &quot;uuid&quot;: &quot;ffa1c1a1-7242-4967-a295-ace92d2bd32f&quot;,
+  &quot;href&quot;: &quot;/api/v1/actors/ffa1c1a1-7242-4967-a295-ace92d2bd32f&quot;,
+  &quot;sources&quot;: [
+    &quot;https://www.netflix.com/tudum/stranger-things/cast&quot;,
+    &quot;https://en.wikipedia.org/wiki/David_Harbour&quot;
+  ],
+  &quot;thumbnail&quot;: &quot;https://s6.imgcdn.dev/xeo5T.png&quot;,
+  &quot;gender&quot;: 1,
+  &quot;nationality&quot;: &quot;American&quot;,
+  &quot;seasons&quot;: [
+    &quot;/api/v1/seasons/3b980ad3-aef8-4663-a7a9-64cb4979500a&quot;,
+    &quot;/api/v1/seasons/1ff70278-fe7c-4619-9e37-91820eaa37b9&quot;,
+    &quot;/api/v1/seasons/b956e444-8489-4bf9-9dd0-fb6b7683638a&quot;,
+    &quot;/api/v1/seasons/4bae1f7c-04ff-40d7-a161-83d8608fbe1c&quot;
+  ],
+  &quot;character&quot;: &quot;/api/v1/characters/48bde91d-aa72-465d-ba6d-f8625009561d&quot;,
+  &quot;socials&quot;: [
+    {
+      &quot;social&quot;: &quot;Instagram&quot;,
+      &quot;handle&quot;: &quot;@dkharbour&quot;,
+      &quot;url&quot;: &quot;https://www.instagram.com/dkharbour/&quot;
+    },
+    {
+      &quot;social&quot;: &quot;Twitter&quot;,
+      &quot;handle&quot;: &quot;@DavidKHarbour&quot;,
+      &quot;url&quot;: &quot;https://www.twitter.com/DavidKHarbour&quot;
+    }
+  ],
+  &quot;images&quot;: [
+    &quot;https://cdn.britannica.com/53/244253-050-579D9771/Actor-David-Harbour-2022.jpg&quot;,
+    &quot;https://m.media-amazon.com/images/M/MV5BZTc5ODUzMDAtZGFhZS00NmExLTlhYWYtZDY0NGI2MGMwYTIzXkEyXkFqcGdeQXVyODY0MzQyODc@._V1_.jpg&quot;,
+    &quot;https://static.wikia.nocookie.net/marvelcinematicuniverse/images/7/7b/David_Harbour.jpg&quot;,
+    &quot;https://media.gq-magazine.co.uk/photos/62c2aac01e96714691fd64ed/master/w_1600%2Cc_limit/July%252004%2520-%2520David%2520Harbour_Online5.jpg&quot;
+  ],
+  &quot;created_at&quot;: &quot;2023-07-27T11:48:58.78&quot;,
+  &quot;updated_at&quot;: &quot;2023-07-27T11:48:58.78&quot;,
+  &quot;first_name&quot;: &quot;David&quot;,
+  &quot;last_name&quot;: &quot;Harbour&quot;,
+  &quot;birth_date&quot;: &quot;1975-04-10&quot;
+}</code></pre>
+</doc-codeblock></div>
 
                                 
                                 <!-- Required only on API pages -->
@@ -621,6 +676,6 @@
 
     <div id="docs-overlay-target"></div>
 
-    <script data-cfasync="false">window.__DOCS__ = { "title": "Actors", level: 2, icon: "file", hasPrism: false, hasMermaid: false, hasMath: false, tocDepth: 23 }</script>
+    <script data-cfasync="false">window.__DOCS__ = { "title": "Actors", level: 2, icon: "file", hasPrism: true, hasMermaid: false, hasMath: false, tocDepth: 23 }</script>
 </body>
 </html>

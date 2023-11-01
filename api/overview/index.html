@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="turbo-root" content="/docs">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.748486434981">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.752178590422">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.5.0">
@@ -31,11 +31,12 @@
 
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="../../resources/css/retype.css?v=3.5.0.748486434981" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=3.5.0.752178590422" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=3.5.0.748486434981" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=3.5.0.752178590422" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../resources/js/retype.js?v=3.5.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.5.0.748486434981" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.5.0.752178590422" data-turbo-eval="false" defer></script>
+    <script id="prism-js" data-cfasync="false" src="../../resources/js/prism.js?v=3.5.0.752178590422" defer></script>
 
     <style>
         .background-holder {
@@ -411,6 +412,10 @@
 <td style="text-align: left;">List&lt;String&gt;</td>
 </tr>
 <tr>
+<td style="text-align: left;">data_count</td>
+<td style="text-align: left;"><doc-anchor-trigger to="#datacount">DataCount</doc-anchor-trigger></td>
+</tr>
+<tr>
 <td style="text-align: left;">created_at</td>
 <td style="text-align: left;">Date</td>
 </tr>
@@ -421,6 +426,87 @@
 </tbody>
 </table>
 </div>
+<doc-anchor-target id="datacount">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#datacount">#</doc-anchor-trigger>
+        <span>DataCount</span>
+    </h3>
+</doc-anchor-target>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th style="text-align: left;">Field</th>
+<th style="text-align: left;">Data Type</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">actors</td>
+<td style="text-align: left;">Int</td>
+</tr>
+<tr>
+<td style="text-align: left;">characters</td>
+<td style="text-align: left;">Int</td>
+</tr>
+<tr>
+<td style="text-align: left;">episodes</td>
+<td style="text-align: left;">Int</td>
+</tr>
+<tr>
+<td style="text-align: left;">games</td>
+<td style="text-align: left;">Int</td>
+</tr>
+<tr>
+<td style="text-align: left;">locations</td>
+<td style="text-align: left;">Int</td>
+</tr>
+<tr>
+<td style="text-align: left;">seasons</td>
+<td style="text-align: left;">Int</td>
+</tr>
+<tr>
+<td style="text-align: left;">soundtracks</td>
+<td style="text-align: left;">Int</td>
+</tr>
+</tbody>
+</table>
+</div>
+<doc-anchor-target id="example">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#example">#</doc-anchor-trigger>
+        <span>Example</span>
+    </h2>
+</doc-anchor-target>
+<blockquote>
+<p><span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-blue-600 bg-blue-100 h-6 px-2 text-xs rounded-md">
+    <span>GET</span>
+</span> /api/v1/overview</p>
+</blockquote>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-json"><code v-pre class="language-json">{
+  &quot;uuid&quot;: &quot;90edba4c-4399-4582-847c-833c597b03c1&quot;,
+  &quot;href&quot;: &quot;/api/v1/overview/90edba4c-4399-4582-847c-833c597b03c1&quot;,
+  &quot;sources&quot;: [&quot;https://www.netflix.com/title/80057281&quot;],
+  &quot;thumbnail&quot;: &quot;https://s6.imgcdn.dev/2rdwu.jpg&quot;,
+  &quot;title&quot;: &quot;Stranger Things&quot;,
+  &quot;description&quot;: &quot;When a young boy vanishes, a small town uncovers a mystery involving secret experiments, terrifying supernatural forces and one strange little girl.&quot;,
+  &quot;language&quot;: &quot;en-US&quot;,
+  &quot;languages&quot;: [&quot;en-US&quot;, &quot;pt-BR&quot;],
+  &quot;creators&quot;: [&quot;Matt Duffer&quot;, &quot;Ross Duffer&quot;],
+  &quot;data_count&quot;: {
+    &quot;actors&quot;: &quot;13&quot;,
+    &quot;characters&quot;: &quot;13&quot;,
+    &quot;episodes&quot;: &quot;34&quot;,
+    &quot;games&quot;: &quot;3&quot;,
+    &quot;locations&quot;: &quot;32&quot;,
+    &quot;seasons&quot;: &quot;4&quot;,
+    &quot;soundtracks&quot;: &quot;0&quot;
+  },
+  &quot;created_at&quot;: &quot;2023-08-07T15:46:09.091&quot;,
+  &quot;updated_at&quot;: &quot;2023-08-07T15:46:09.091&quot;
+}</code></pre>
+</doc-codeblock></div>
 
                                 
                                 <!-- Required only on API pages -->
@@ -508,6 +594,6 @@
 
     <div id="docs-overlay-target"></div>
 
-    <script data-cfasync="false">window.__DOCS__ = { "title": "Overview", level: 2, icon: "file", hasPrism: false, hasMermaid: false, hasMath: false, tocDepth: 23 }</script>
+    <script data-cfasync="false">window.__DOCS__ = { "title": "Overview", level: 2, icon: "file", hasPrism: true, hasMermaid: false, hasMath: false, tocDepth: 23 }</script>
 </body>
 </html>
