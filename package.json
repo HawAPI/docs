@@ -1,4 +1,7 @@
 {
+  "name": "@hawapi/docs",
+  "version": "1.2.0",
+  "packageManager": "yarn@4.0.1",
   "scripts": {
     "build": "retype build && node scripts/js/update-colors.mjs",
     "watch": "retype start",
